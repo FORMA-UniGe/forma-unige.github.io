@@ -21,6 +21,8 @@ Each news is described as follows:
 
 To be added in news.json.
 
+REMEMBER: Each item in the list has to be separated by a comma (",").
+
 The news are loaded in order. Thus, the first three in the list will be ones showed on the main page (the rest in the supporting web page dedicated to all other news). 
 
 SO, THE NEWS SHOULD BE ADDED IN THE HEAD OF THE LIST
