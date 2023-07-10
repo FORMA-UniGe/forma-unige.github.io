@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Davide",
+        "surname": "Ancona",
+        "affiliation": "University of Genoa",
+        "role": "Associate Professor",
+        "image": "./images/people/davide.jpg",
+        "url": "https://rubrica.unige.it/personale/VUZCU1tp",
+        "bib": "https://dblp.org/pid/a/DAncona.bib"
+    },
+    {
+        "name": "Francesco",
+        "surname": "Dagnino",
+        "affiliation": "University of Genoa",
+        "role": "Type-A Research Fellow",
+        "image": "./images/people/francesco.jpg",
+        "url": "https://fdgn.github.io",
+        "bib": "https://dblp.org/pid/190/4511.bib"
+    },
+    {
+        "name": "Giorgio",
+        "surname": "Delzanno",
+        "affiliation": "University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/giorgio.jpg",
+        "url": "https://rubrica.unige.it/personale/UEZEWVs=",
+        "bib": "https://dblp.org/pid/d/GDelzanno.bib"
+    },
+    {
+        "name": "Angelo",
+        "surname": "Ferrando",
+        "affiliation": "University of Genoa",
+        "role": "Type-A Research Fellow",
+        "image": "./images/people/angelo.jpg",
+        "url": "https://angeloferrando.github.io",
+        "bib": "https://dblp.org/pid/134/9527.bib"
+    },
+    {
+        "name": "Marcello",
+        "surname": "Frixione",
+        "affiliation": "University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/marcello.jpg",
+        "url": "https://rubrica.unige.it/personale/VUZCXF9p",
+        "bib": "https://dblp.org/pid/75/6859.bib"
+    },
+    {
+        "name": "Enrico",
+        "surname": "Ghiorzi",
+        "affiliation": "University of Genoa",
+        "role": "Postdoctoral Research Associate",
+        "image": "./images/people/default.jpg",
+        "url": "https://enricoghiorzi.github.io",
+        "bib": "https://dblp.org/pid/283/5297.bib"
+    },
+    {
+        "name": "Enrico",
+        "surname": "Giunchiglia",
+        "affiliation": "University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/enricoGiu.jpg",
+        "url": "https://rubrica.unige.it/personale/VUZDXlxv",
+        "bib": "https://dblp.org/pid/g/EnricoGiunchiglia.bib"
+    },
+    {
+        "name": "Viviana",
+        "surname": "Mascardi",
+        "affiliation": "University of Genoa",
+        "role": "Associate Professor",
+        "image": "./images/people/viviana.jpg",
+        "url": "https://vivianamascardi.github.io",
+        "bib": "https://dblp.org/pid/m/VMascardi.bib"
+    },
+    {
+        "name": "Eugenio",
+        "surname": "Moggi",
+        "affiliation": "University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/eugenio.jpg",
+        "url": "https://rubrica.unige.it/personale/UEBCX1I=",
+        "bib": "https://dblp.org/pid/m/EugenioMoggi.bib"
+    },
+    {
+        "name": "Massimo",
+        "surname": "Narizzano",
+        "affiliation": "University of Genoa",
+        "role": "Research Fellow",
+        "image": "./images/people/default.jpg",
+        "url": "https://rubrica.unige.it/personale/UkNHXV9o",
+        "bib": "https://dblp.org/pid/42/105.bib"
+    },
+    {
+        "name": "Daniele",
+        "surname": "Porello",
+        "affiliation": "University of Genoa",
+        "role": "Associate Professor",
+        "image": "./images/people/daniele.png",
+        "url": "https://www.danieleporello.net",
+        "bib": "https://dblp.org/pid/33/8219.bib"
+    },
+    {
+        "name": "Armando",
+        "surname": "Tacchella",
+        "affiliation": "University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/armando.jpg",
+        "url": "https://rubrica.unige.it/personale/UkNHW1tq",
+        "bib": "https://dblp.org/pid/35/5174.bib"
+    },
+    {
+        "name": "Elena",
+        "surname": "Zucca",
+        "affiliation": "University of Genoa",
+        "role": "Associate Professor",
+        "image": "./images/people/elena.jpg",
+        "url": "https://rubrica.unige.it/personale/UEBEWlw=",
+        "bib": "https://dblp.org/pid/35/5174.bib"
+    }
+]

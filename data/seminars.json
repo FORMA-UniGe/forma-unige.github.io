@@ -1,0 +1,12 @@
+[
+    {
+        "title": "Runtime Verification as a Toolkit of Techniques for Cyber Security Monitoring",
+        "speaker": "Christian Colombo",
+        "affiliation": "University of Malta",
+        "abstract": "Runtime verification now has two decades of experience in developing a toolkit of techniques aimed at facilitating monitoring through wide-ranging contributions: from domain-specification language design, to compilation of properties, to intrusiveness mitigation techniques. This talk will provide a quick tour of the RV toolkit, evolving into how this benefits cyber security. In this context, RV can (amongst other things) help in monitoring the execution of security protocols, enforce isolation of a trusted execution environment, and extract evidence which would otherwise be hard to obtain.",
+        "bio": "Christian Colombo obtained his PhD in Computer Science from the University of  Malta in 2013 and currently holds the position of Senior Lecturer within the Department of Computer Science. His main areas of research are runtime verification, software testing, compensating transactions, and domain-specific languages, focusing on the creation of dependable software systems by verifying them against formal specifications at runtime. The applications of this body of research, spans mobile device security, payment gateway systems, social network privacy policies, tax compliance, and cyber security, amongst others. He is actively involved in outreach activities both at department and faculty level, engaging with potential future students, industry, and the general public.",
+        "image": "./images/seminars/christiancolombo.jpeg",
+        "when": "21st of April, 2023",
+        "where": "Valletta Puggia, Room 322"
+    }
+]

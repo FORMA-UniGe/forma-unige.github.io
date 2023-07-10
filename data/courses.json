@@ -1,0 +1,9 @@
+[
+    {
+        "type": "PhD Course",
+        "title": "Introduction to formal verification: an appetiser",
+        "teacher": "Angelo Ferrando",
+        "abstract": "The course provides a general introduction to static formal verification (such as Model Checking), and runtime verification. The course will not focus only on the theoretical foundations of the two approaches, but it will offer practical insights as well. For both methodologies, established tools will be presented and experimented (through laboratories). At the end of the course, a more general overview of recent works on runtime verification will also be reported. This will help the students to have a better understanding of the newest features and challenging applications where such formal technique has been applied.",
+        "image": "./images/courses/phdAngelo.jpg"
+    }
+]
