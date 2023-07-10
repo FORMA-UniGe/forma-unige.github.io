@@ -76,7 +76,7 @@ Example of person:
 {
     "name": "Name",
     "surname": "Surname",
-    "affiliation": "Affilitiation",
+    "affiliation": "Affiliation",
     "role": "Position",
     "image": "A photo to be added in the images/people folder (put ./images/people/default.jpg if no photo is available)",
     "url": "url to personal website",
