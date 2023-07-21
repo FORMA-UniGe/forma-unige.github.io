@@ -26,7 +26,7 @@
         "image": "./images/courses/default.jpg"
     },
     {
-        "type": "Master course",
+        "type": "MSc Course",
         "title": "Principles and paradigms of programming languages",
         "teacher": "Elena Zucca, Francesco Dagnino",
         "department": "DIBRIS",
