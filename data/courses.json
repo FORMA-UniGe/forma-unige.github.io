@@ -14,5 +14,12 @@
         "target": "MSc and PhD students", 
         "requirements": "basics of propositional and first order logic", 
         "image": "./images/courses/default.jpg"
+    },
+    {
+        "type": "Master course",
+        "title": "Principles and paradigms of programming languages",
+        "teacher": "Elena Zucca, Francesco Dagnino",
+        "abstract": "The aim is to provide students with a deeper and more critical knowledge of programming languages, through the learning of theoretical foundations and the comparison of different paradigms. Course program: foundations (small-step semantics, type systems, soundness); functional paradigm (lambda calculus, call-by-value and call-by-name, simply-typed lambda-calculus, polymorphism, Hindley-Milner inference); functional programming in Haskell, lazy evaluation, type classes; effects (extensions of lambda-calculus with imperative features and exceptions); object-oriented paradigm (subtyping, Featherweight Java); logic paradigm (Prolog syntax, model-theoretic semantics, SLD resolution); coinduction and coinductive logic programming.",
+        "image": "./images/courses/pppl.jpg"
     }
 ]
