@@ -98,6 +98,7 @@ function updateCourses(limit) {
                 `{
                     "title": "None",
                     "teacher": "None",
+                    "department": "None",
                     "image": "./images/courses/default.jpg",
                     "abstract": "None",
                     "type": "None"
@@ -113,7 +114,7 @@ function updateCourses(limit) {
             data.forEach((element, index) => {
                 if(limit && (index-pickedIndex >= limit || index < pickedIndex)) return;
                 document.getElementById("coursesDiv").innerHTML +=
-                    "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalCourses" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Courses\"><div class=\"card-body\"><h5 class=\"card-title\">[" + element["type"] + "]<br><b>" + element["title"] + "</b><br><i>" + element["teacher"] + "</i></h5></div></div></div>";
+                    "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalCourses" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Courses\"><div class=\"card-body\"><h5 class=\"card-title\">[" + element["type"] + "]<br><b>" + element["title"] + "</b><br><i>" + element["teacher"] + "</i></h5><h5>" + element["department"] + "</h5></div></div></div>";
 
                 document.getElementById("modals").innerHTML += 
                     `<div class="modal fade" id="modalCourses` + index + `" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

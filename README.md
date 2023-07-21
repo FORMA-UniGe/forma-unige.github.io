@@ -59,6 +59,7 @@ Example of course:
     "type": "Type of course (eg. PhD Course, Master course, and so on)",
     "title": "The title of the course",
     "teacher": "The teacher(s) of the course",
+    "department": "The department in which the course is done",
     "abstract": "The full description of the course (as long as you want)",
     "image": "A picture representing the course (put ./images/courses/default.jpg if no image is present)"
 }
