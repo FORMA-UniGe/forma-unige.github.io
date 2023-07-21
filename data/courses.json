@@ -10,7 +10,7 @@
     {
         "type": "PhD Course",
         "title": "Introduction to Type Theory from foundations to practice",
-        "teacher": "Francesco Dagnino and Jacopo Emmenegger",
+        "teacher": "Francesco Dagnino, Jacopo Emmenegger",
         "department": "DIBRIS and DIMA",
         "abstract": "Proof assistants are tools designed to write formal proofs and automatically check their correctness. They are increasingly used  in many different domains, from software verification to formalized mathematics. Most popular proof assistants, such as Agda, Coq or Lean, implement a constructive logic based on a (dependent) type theory. This means that they are strongly typed functional programming languages where types and programs are seen as logical formulas and proofs, respectively, and then correctness of proofs is just ensured by type-checking a program. In the course, we will  study fundamental notions and results on type theories, explaining their connection with logic, and we will experiment formal reasoning in a type theory, using Agda as a concrete system. ",
         "target": "MSc and PhD students", 
@@ -18,11 +18,19 @@
         "image": "./images/courses/default.jpg"
     },
     {
+        "type": "BSc Course",
+        "title": "Automata Theory and Computability",
+        "teacher": "Elena Zucca",
+        "department": "DIBRIS",                           
+        "abstract": "We introduce notions and results from Automata Theory and Computability Theory which are of paramount importance for a computer scientist. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63569>Webpage</a>",
+        "image": "./images/courses/default.jpg"
+    },
+    {
         "type": "Master course",
         "title": "Principles and paradigms of programming languages",
         "teacher": "Elena Zucca, Francesco Dagnino",
         "department": "DIBRIS",
-        "abstract": "The aim is to provide students with a deeper and more critical knowledge of programming languages, through the learning of theoretical foundations and the comparison of different paradigms. Course program: foundations (small-step semantics, type systems, soundness); functional paradigm (lambda calculus, call-by-value and call-by-name, simply-typed lambda-calculus, polymorphism, Hindley-Milner inference); functional programming in Haskell, lazy evaluation, type classes; effects (extensions of lambda-calculus with imperative features and exceptions); object-oriented paradigm (subtyping, Featherweight Java); logic paradigm (Prolog syntax, model-theoretic semantics, SLD resolution); coinduction and coinductive logic programming. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63403?codcla=10852>Webpage</a>",
+        "abstract": "The aim is to provide students with a deeper and more critical knowledge of programming languages, through the learning of theoretical foundations and the comparison of different paradigms. <br> Course program: foundations (small-step semantics, type systems, soundness); functional paradigm (lambda calculus, call-by-value and call-by-name, simply-typed lambda-calculus, polymorphism, Hindley-Milner inference); functional programming in Haskell, lazy evaluation, type classes; effects (extensions of lambda-calculus with imperative features and exceptions); object-oriented paradigm (subtyping, Featherweight Java); logic paradigm (Prolog syntax, model-theoretic semantics, SLD resolution); coinduction and coinductive logic programming. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63403?codcla=10852>Webpage</a>",
         "image": "./images/courses/pppl.jpg"
     }
 ]
