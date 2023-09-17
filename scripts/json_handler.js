@@ -105,33 +105,31 @@ function updateCourses(limit) {
                 }`;
                 data.push(JSON.parse(jsonStr));
             }
-            var pickedIndex;
-            if(data.length <= 3) {
-                pickedIndex = 0;
-            } else {
-                pickedIndex = Math.floor(Math.random() * (data.length-3));
-            }
-            data.forEach((element, index) => {
-                if(limit && (index-pickedIndex >= limit || index < pickedIndex)) return;
-                document.getElementById("coursesDiv").innerHTML +=
-                    "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalCourses" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Courses\"><div class=\"card-body\"><h5 class=\"card-title\">[" + element["type"] + "]<br><b>" + element["title"] + "</b><br><i>" + element["teacher"] + "</i></h5><h5>" + element["department"] + "</h5></div></div></div>";
+            limit = limit || data.length; 
+            for (var i = 0; i < limit; i++) { 
+              var pickedIndex = i + Math.floor(Math.random() * (limit - i + 1));
+              var element = data[pickedIndex]; 
+              data[pickedIndex] = data[i]; 
+              data[i] = element; 
+              document.getElementById("coursesDiv").innerHTML +=
+                  "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalCourses" + i + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Courses\"><div class=\"card-body\"><h5 class=\"card-title\">[" + element["type"] + "]<br><b>" + element["title"] + "</b><br><i>" + element["teacher"] + "</i></h5><h5>" + element["department"] + "</h5></div></div></div>";
 
-                document.getElementById("modals").innerHTML += 
-                    `<div class="modal fade" id="modalCourses` + index + `" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">` + element["title"] + `</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                            ` + element["abstract"] + `
-                            </div>
-                        </div>
-                        </div>
-                    </div> `;
-                });
-            });
+              document.getElementById("modals").innerHTML += 
+                  `<div class="modal fade" id="modalCourses` + i + `" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                      <div class="modal-dialog modal-dialog-scrollable">
+                      <div class="modal-content">
+                          <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">` + element["title"] + `</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                          <div class="modal-body">
+                          ` + element["abstract"] + `
+                          </div>
+                      </div>
+                      </div>
+                  </div> `;
+            }
+          });
 }
 
 function updatePeople() {
