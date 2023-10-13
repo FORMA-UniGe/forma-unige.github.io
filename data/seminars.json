@@ -1,5 +1,15 @@
 [
     {
+        "title": "Doctrines of Logic",
+        "speaker": "Giuseppe Rosolini",
+        "affiliation": "University of Genoa",
+        "abstract": "One of the great achievements in the mathematical work of F.W. Lawvere has been that of redesigning the algebraic perspective on logic by means of categories. In a series of seminal papers, he presented a radically new approach to the algebra of logic, which has been proved extremely fruitful in the following years. They go under the name of doctrines. We shall argue that the power of doctrines rests on its unifying aspects, and we shall present by examples how the structural perspective offers powerful tools for both theoretical studies and applications.",
+        "bio": "Professor of Mathematical Logic, Giuseppe Rosolini teaches at the Department of Mathematics at the University of Genoa. He earned his Ph.D. in Mathematics at the University of Oxford. He is a regular member of the Virgilian Academy, a member of the Italian Association of Logic and Applications, and is part of the editorial board of the Journal of Pure and Applied Algebra, Theory and Applications of Categories, and La Matematica nella Società e nella Cultura. Author of numerous scientific publications, a visiting professor at several Italian and foreign universities, he co-authored the book 'Mathematics at the Bar' with Roberto Lucchetti, published by FrancoAngeli. He is the creator and organizer of the team mathematics competition.",
+        "image": "./images/seminars/giusepperosolini.jpeg",
+        "when": "19th of October, 2023",
+        "where": "Valletta Puggia, Room 217"
+    },
+    {
         "title": "Runtime Verification as a Toolkit of Techniques for Cyber Security Monitoring",
         "speaker": "Christian Colombo",
         "affiliation": "University of Malta",
