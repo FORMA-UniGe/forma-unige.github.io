@@ -106,8 +106,10 @@ function updateCourses(limit) {
                 data.push(JSON.parse(jsonStr));
             }
             limit = limit || data.length; 
+            // var pickedIndex = i + Math.floor(Math.random() * (limit - i + 1));
+            var pickedIndex = Math.floor(Math.random() * (data.length - 1));
             for (var i = 0; i < limit; i++) { 
-              var pickedIndex = i + Math.floor(Math.random() * (limit - i + 1));
+              pickedIndex = (pickedIndex + i) % data.length;  
               var element = data[pickedIndex]; 
               data[pickedIndex] = data[i]; 
               data[i] = element; 
