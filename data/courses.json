@@ -37,7 +37,7 @@
      "type": "BSc course",
      "title": "Logic",
      "teacher": "Daniele Porello",
-     "department": "Philosophy department",
+     "department": "DAFIST",
      "abstract": "This course provides an introduction to the basics of propositional and first-order predicate logic. The course includes a significant practical component, to get used to logical and mathematical language, to train logical reasoning, to acquire the ability of proving simple logical statements, to practice the evaluation of argumentations. Link: https://rubrica.unige.it/personale/UkNAXlhv",
      "image": "./images/courses/default.jpg"
     },
@@ -45,7 +45,7 @@
          "type": "MSc course",
          "title": "Logic",
          "teacher": "Daniele Porello",
-         "department": "Philosophy department",
+         "department": "DAFIST",
          "abstract": "The course delves into a few selected topics in classical logic, introduces modal logics, and discusses some topics in non-classical logics. The objective of the course is to prepare students to approach research problems at the intersection of mathematical logic and philosophical logic, formal ontology, and knowledge representation. Link: https://rubrica.unige.it/personale/UkNAXlhv",
          "image": "./images/courses/default.jpg"
     },
@@ -53,8 +53,40 @@
          "type": "MSc course",
          "title": "Philosophy in Artificial Intelligence",
          "teacher": "Marcello Frixione, Daniele Porello",
-         "department": "Philosophy department",
+         "department": "DAFIST",
          "abstract": "The course provides an introduction to a number of fundamental methods in AI, it approaches their logical, epistemological, and semantic foundations, and introduces a number of topics in the contemporary debate in Philosophy of AI. Link: https://rubrica.unige.it/personale/UkNAXlhv",
          "image": "./images/courses/default.jpg"
+    }, 
+    {
+        "type": "BSc Course",
+        "title": "Elementary Set Theory",
+        "teacher": "Riccardo Camerlo",
+        "department": "DIMA",
+        "abstract": "The course introduce set theory as foundational theory for mathematics. Then it presents some subjects peculiar to the theory, like ordinal and cardinal arithmetic, and provides some applications of them to algebra, topology, and analysis. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/69555>Webpage</a>",
+        "image": "./images/courses/default.jpg"
+    },
+    {
+        "type": "BSc Course",
+        "title": "Logic",
+        "teacher": "Riccardo Camerlo",
+        "department": "DIBRIS",
+        "abstract": "The course focuses on the basics of propositional and first-order logic. The student is expected to learn the notions of logical consequence and equivalence, the difference between syntax and semantics in a formal language, the concept of interpretation of a formal language and the ability of translating  assertions from natural to formal language and viceversa. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63562>Webpage</a>",
+        "image": "./images/courses/default.jpg"
+    },
+    {
+        "type": "MSc Course",
+        "title": "Mathematical Logic",
+        "teacher": "Sara Negri",
+        "department": "DIMA",
+        "abstract": "The lecture course presents intuitions and mathematical results which relate to the developments in mathematical logic of the last 80 years. This allows to perform a deep analysis of the mathematical practice. The explicit study of mathematical logic lets the expert increase the understanding of the mathematical sciences and produces a fundamental basis for the presentation of mathematical themes and for the accretion of one's own mathematical intuition. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/69495>Webpage</a>",
+        "image": "./images/courses/default.jpg"
+    },
+    {
+        "type": "MSc Course",
+        "title": "Axiomatic Set Theory",
+        "teacher": "Jacopo Emmenegger and Giuseppe Rosolini",
+        "department": "DIMA",
+        "abstract": "The lecture course introduces to set theory in its axiomatic form, by explicitly listing basic axioms and, from those, deriving basic theorems which are of major relevance for the mathematical practice. Then the course will be devoted to the development of appropriate techniques to get to independence proofs. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/71151>Webpage</a>",
+        "image": "./images/courses/default.jpg"
     }
 ]
