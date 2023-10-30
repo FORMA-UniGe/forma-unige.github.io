@@ -9,7 +9,7 @@
     }, 
     {
         "type": "PhD Course",
-        "title": "Introduction to Type Theory from foundations to practice",
+        "title": "Introduction to Type Theory: from foundations to practice",
         "teacher": "Francesco Dagnino, Jacopo Emmenegger",
         "department": "DIBRIS and DIMA",
         "abstract": "Proof assistants are tools designed to write formal proofs and automatically check their correctness. They are increasingly used  in many different domains, from software verification to formalized mathematics. Most popular proof assistants, such as Agda, Coq or Lean, implement a constructive logic based on a (dependent) type theory. This means that they are strongly typed functional programming languages where types and programs are seen as logical formulas and proofs, respectively, and then correctness of proofs is just ensured by type-checking a program. In the course, we will  study fundamental notions and results on type theories, explaining their connection with logic, and we will experiment formal reasoning in a type theory, using Agda as a concrete system. ",
