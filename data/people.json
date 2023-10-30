@@ -2,16 +2,25 @@
     {
         "name": "Davide",
         "surname": "Ancona",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Associate Professor",
         "image": "./images/people/davide.jpg",
         "url": "https://rubrica.unige.it/personale/VUZCU1tp",
         "bib": "https://dblp.org/pid/a/DAncona.bib"
     },
     {
+        "name": "Riccardo",
+        "surname": "Camerlo",
+        "affiliation": "DIMA, University of Genoa",
+        "role": "Associate Professor",
+        "image": "./images/people/default.jpg",
+        "url": "https://rubrica.unige.it/personale/UkJEXVhu",
+        "bib": "https://dblp.org/pid/10/2806.bib"
+    },
+    {
         "name": "Francesco",
         "surname": "Dagnino",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Type-A Research Fellow",
         "image": "./images/people/francesco.jpg",
         "url": "https://fdgn.github.io",
@@ -20,16 +29,25 @@
     {
         "name": "Giorgio",
         "surname": "Delzanno",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Full Professor",
         "image": "./images/people/giorgio.jpg",
         "url": "https://rubrica.unige.it/personale/UEZEWVs=",
         "bib": "https://dblp.org/pid/d/GDelzanno.bib"
     },
     {
+        "name": "Jacopo",
+        "surname": "Emmenegger",
+        "affiliation": "DIMA, University of Genoa",
+        "role": "TypeA Research Fellow",
+        "image": "./images/people/default.jpg",
+        "url": "https://rubrica.unige.it/personale/UkJFXVNv",
+        "bib": "https://dblp.org/pid/286/1554.bib"
+    },
+    {
         "name": "Angelo",
         "surname": "Ferrando",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Type-A Research Fellow",
         "image": "./images/people/angelo.jpg",
         "url": "https://angeloferrando.github.io",
@@ -38,7 +56,7 @@
     {
         "name": "Marcello",
         "surname": "Frixione",
-        "affiliation": "University of Genoa",
+        "affiliation": "DAFIST, University of Genoa",
         "role": "Full Professor",
         "image": "./images/people/marcello.jpg",
         "url": "https://rubrica.unige.it/personale/VUZCXF9p",
@@ -47,7 +65,7 @@
     {
         "name": "Enrico",
         "surname": "Ghiorzi",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Postdoctoral Research Associate",
         "image": "./images/people/default.jpg",
         "url": "https://enricoghiorzi.github.io",
@@ -56,7 +74,7 @@
     {
         "name": "Enrico",
         "surname": "Giunchiglia",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Full Professor",
         "image": "./images/people/enricoGiu.jpg",
         "url": "https://rubrica.unige.it/personale/VUZDXlxv",
@@ -65,7 +83,7 @@
     {
         "name": "Viviana",
         "surname": "Mascardi",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Associate Professor",
         "image": "./images/people/viviana.jpg",
         "url": "https://vivianamascardi.github.io",
@@ -74,7 +92,7 @@
     {
         "name": "Eugenio",
         "surname": "Moggi",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Full Professor",
         "image": "./images/people/eugenio.jpg",
         "url": "https://rubrica.unige.it/personale/UEBCX1I=",
@@ -83,25 +101,43 @@
     {
         "name": "Massimo",
         "surname": "Narizzano",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Research Fellow",
         "image": "./images/people/default.jpg",
         "url": "https://rubrica.unige.it/personale/UkNHXV9o",
         "bib": "https://dblp.org/pid/42/105.bib"
     },
     {
+        "name": "Sara",
+        "surname": "Negri",
+        "affiliation": "DIMA, University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/default.jpg",
+        "url": "https://rubrica.unige.it/personale/UkJCWFNp",
+        "bib": "https://dblp.org/pid/85/3941.bib"
+    },
+    {
         "name": "Daniele",
         "surname": "Porello",
-        "affiliation": "University of Genoa",
+        "affiliation": "DAFIST, University of Genoa",
         "role": "Associate Professor",
         "image": "./images/people/daniele.png",
         "url": "https://www.danieleporello.net",
         "bib": "https://dblp.org/pid/33/8219.bib"
     },
     {
+        "name": "Giuseppe",
+        "surname": "Rosolini",
+        "affiliation": "DIMA, University of Genoa",
+        "role": "Full Professor",
+        "image": "./images/people/default.jpg",
+        "url": "https://rubrica.unige.it/personale/VUZEUl5s",
+        "bib": "https://dblp.org/pid/r/GRosolini.bib"
+    },
+    {
         "name": "Armando",
         "surname": "Tacchella",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Full Professor",
         "image": "./images/people/armando.jpg",
         "url": "https://rubrica.unige.it/personale/UkNHW1tq",
@@ -110,7 +146,7 @@
     {
         "name": "Elena",
         "surname": "Zucca",
-        "affiliation": "University of Genoa",
+        "affiliation": "DIBRIS, University of Genoa",
         "role": "Associate Professor",
         "image": "./images/people/elena.jpg",
         "url": "https://rubrica.unige.it/personale/UEBEWlw=",
