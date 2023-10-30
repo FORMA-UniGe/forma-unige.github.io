@@ -2,7 +2,7 @@
     {
         "title": "Enforcing Modular Security through Language Design: A Study on Object and Reference Capabilities",
         "speaker": "Marco Servetto",
-        "affiliation": "University of Wellington, NZ",
+        "affiliation": "Victoria University of Wellington, NZ",
         "abstract": "We present an approach to language design aimed at enforcing modular security, where a security architect can define specific object capabilities that enforce custom security properties. Unlike traditional models that assume an uncompromised system ('clean garden'), this model ('dark forest') assumes local machines are already compromised but anchored by a secure root. Security is maintained even in the presence of adversarial code execution within security-critical processes: a process may be rendered inert, or be subjected to crashes or infinite loops, but it is precluded from engaging in insecure interactions.",
         "bio": "Marco Servetto is a researcher in Programming languages, type and theory. He is interested in the formal modelling of the semantic of programming languages, with a focus on the intersection between object orientation and functional programming. He is a member of the Engineering and computer science faculty at Victoria University of Wellington. He is doing a programming language called 42, based on enforcing radical security and safe metaprogramming. More information about his research at <a href=\"https://Forty2.is\">https://Forty2.is</a> or <a href=\"https://www.youtube.com/MarcoServetto\">https://www.youtube.com/MarcoServetto</a>",
         "image": "./images/seminars/marcoservetto.jpeg",
