@@ -1,4 +1,15 @@
 [
+    
+    {
+        "title": "ML-powered anomaly detection and formal methods for ML",
+        "speaker": "Claudia Cavallaro",
+        "affiliation": "University of Catania",
+        "abstract": "L’Anomaly Detection è un campo del data mining che si occupa di identificare dati anomali in un set di dati. Le anomalie possono essere dovute a vari fattori, come errori di misurazione, eventi imprevisti o attacchi malevoli. Questo seminario intende fare una panoramica sulle anomalie in campi come i sistemi di controllo industriali, i sistemi di intrusione, l’ analisi di eventi climatici, di traffico urbano, di fake news e tanto altro. I metodi formali (FM) forniscono un valido aiuto all’Anomaly Detection, supportando il processo di apprendimento o la data augmentation. I metodi formali possono migliorare la generalizzazione del modello risultante dopo l’addestramento e guidare il processo di apprendimento al fine di rispettare determinate proprietà come dei vincoli. Le applicazioni dei metodi formali contribuiscono quindi a migliorare la robustezza dei modelli di ML.",
+        "bio": "Claudia Cavallaro, docente ed RTDa dell’Università di Catania, si occupa di ricerca in Informatica, nel tema dei Big Data, dell'Ottimizzazione e delle Metaeuristiche. Recentemente ha partecipato come speaker alle conferenze ITADATA 2023 (The 2nd Italian Conference on Big Data and Data Science) e WIVACE 2023 (XVII International Workshop on Artificial Life and Evolutionary Computation). Ha iniziato a lavorare nel campo di ricerca dell'Anomaly Detection già durante il periodo di post-doc presso il CNAF-I.N.F.N. di Bologna.",
+        "image": "./images/seminars/claudiacavallaro.jpeg",
+        "when": "22nd of November, 2023",
+        "where": "Valletta Puggia, Room 218"
+    },
     {
         "title": "Enforcing Modular Security through Language Design: A Study on Object and Reference Capabilities",
         "speaker": "Marco Servetto",
