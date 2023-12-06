@@ -17,7 +17,7 @@ function updateNews(limit) {
             data.forEach((element, index) => {
                 if(limit && index >= limit) return;
                 document.getElementById("newsDiv").innerHTML +=
-                    "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalNews" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"News\"><div class=\"card-body\"><h5 class=\"card-title\"><b>" + element["title"] + "</b></h5><p class=\"card-text\">" + element["abstract"] + "</p></div></div></div>";
+                    "<div class=\"col d-flex align-items-stretch\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalNews" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"News\"><div class=\"card-body\"><h5 class=\"card-title\"><b>" + element["title"] + "</b></h5><p class=\"card-text\">" + element["abstract"] + "</p></div></div></div>";
 
                 document.getElementById("modals").innerHTML += 
                     `<div class="modal fade" id="modalNews` + index + `" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
