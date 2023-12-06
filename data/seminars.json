@@ -4,7 +4,7 @@
         "speaker": "Stefania Costantini",
         "affiliation": "University of L'Aquila",
         "abstract": "In the multi-agent setting, it is relevant to model group dynamics of agents, and epistemic logic has proved a good tool. We illustrate an epistemic logic that allows one to formalise the new beliefs formed or removed by a group of agents where several groups can co-exist and where an agent can pass from one group to another. This accounts for modelling aspects of a \"Theory of Mind\" in Multi-Agent Systems. We present some significant case studies, arguing that the epistemic logic representation may enable explainability. We then discuss how temporal-logic-based representations enable forms of agents' run-time self-checking and self-improvement, complementary to other existing ones.",
-        "bio": "Member of the Steering Committee of AIxIA (Italian Association of Artificial Intelligence) and of the Executive Committee of ALP (Association for Logic Programming). Coordinator for L'Aquila of the National Lab CINI AIIS (Artificial Intelligence and Intelligent Systems). Evaluator for EU, Italian Ministry, Italian and foreign Universities and Institutions. Invited visiting professor: University of Texas at El Paso;",
+        "bio": "Imperial College London; Universidad Politecnica de Madrid and Corunna University; Fundacion Univ. de las Americas, Puebla (MX). Projects: Vice-Coordinator of Action COST CA17124  'DIGital FORensics: evidence Analysis via intelligent Systems and Practices', UNIVAQ Node Coordinator in",
         "image": "./images/seminars/stefaniacostantini.jpeg",
         "when": "15th of January, 2023",
         "where": "Valletta Puggia, Room 711"
