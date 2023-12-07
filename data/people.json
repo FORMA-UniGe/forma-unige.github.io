@@ -135,6 +135,15 @@
         "bib": "https://dblp.org/pid/r/GRosolini.bib"
     },
     {
+        "name": "Arnaud",
+        "surname": "Sangnier",
+        "affiliation": "DIBRIS, University of Genoa",
+        "role": "Assistant Professor",
+        "image": "./images/people/arnaud.jpeg",
+        "url": "https://rubrica.unige.it/personale/UkNGWVxt",
+        "bib": "https://dblp.org/pid/45/2701.bib"
+    },
+    {
         "name": "Armando",
         "surname": "Tacchella",
         "affiliation": "DIBRIS, University of Genoa",

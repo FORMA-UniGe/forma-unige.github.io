@@ -10,6 +10,16 @@
         "where": "Valletta Puggia, Room 711"
     },
     {
+        "title": "Parameterised Verification of Networks with Rendez-Vous",
+        "speaker": "Arnaud Sangnier",
+        "affiliation": "University of Genoa",
+        "abstract": "We study  networks of processes which all execute the same finite-state protocol and communicate thanks to a rendez-vous mechanism. We are interesting in verifying different properties on this model. We first recall some known results and the connection between these networks and Petri nets. We then present new results on some specific problem: namely given a protocol,is it possible to check whether there exists a number, called a cut-off, such that in any networks with a bigger number of participants, there is an execution where all the entities end in some final state. We provide decidability and complexity results for this problem under various assumptions. We then present some complexity  results for the safety verification of such networks under a relaxed semantics of the rendez-vous mechanism, making them closer to the synchronization mechanism present in some programming languages like Java. This presentation is the fruit of joint works with Florian Horn, Lucie Guillou and Nathalie Sznajder.",
+        "bio": "Arnaud Sangnier obtained his PhD at the Laboratoire Spécification et Vérification of ENS Cachan (France) in 2008. His doctoral thesis was on the automatic verification of programs manipulating pointers and counters. During the year 2009, he did a post-doctoral stay at the university of Torino where he studied together with Jeremy Sproston probabilistic systems equipped with counters à la Petri nets. After that he spent 9 month at Genova to work with Giorgio Delzanno on the verification of parameterized networks. From autumn 2010 to autumn 2023, he was associate professor at the University Paris Cité and member of the Institut de Recherche en Informatique Fondamentale (IRIF). He is now associate professor at the University of Genova and member of the Dipartimento di Informatica, Bioingegneria, Robotica e Ingegneria dei Sistemi (DIBRIS). During the last years he has continued to work in both directions of parameterized verification and analysis of systems with counters.",
+        "image": "./images/seminars/arnaudsangnier.jpeg",
+        "when": "21st of December, 2023",
+        "where": "Valletta Puggia, Room 218"
+    },
+    {
         "title": "ML-based anomaly detection and Formal Methods for ML",
         "speaker": "Claudia Cavallaro",
         "affiliation": "University of Catania",
