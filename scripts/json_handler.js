@@ -101,7 +101,9 @@ function updateCourses(limit) {
                     "department": "None",
                     "image": "./images/courses/default.jpg",
                     "abstract": "None",
-                    "type": "None"
+                    "type": "None",
+                    "requirements": "None",
+                    "target": "None"
                 }`;
                 data.push(JSON.parse(jsonStr));
             }
@@ -125,7 +127,14 @@ function updateCourses(limit) {
                               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                           </div>
                           <div class="modal-body">
+                          <div><b>Abstract</b></div>
                           ` + element["abstract"] + `
+                          <div><b>Prerequisites</b></div>
+                          ` + element["requirements"] + `
+                          <div><b>Target students</b></div>
+                          ` + element["target"] + `
+                          <div><b>Contact email</b></div>
+                          ` + element["email"] + `
                           </div>
                       </div>
                       </div>

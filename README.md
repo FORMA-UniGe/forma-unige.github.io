@@ -61,7 +61,10 @@ Example of course:
     "teacher": "The teacher(s) of the course",
     "department": "The department in which the course is done",
     "abstract": "The full description of the course (as long as you want)",
-    "image": "A picture representing the course (put ./images/courses/default.jpg if no image is present)"
+    "image": "A picture representing the course (put ./images/courses/default.jpg if no image is present)",
+    "requirements": "The prerequisites of the course",
+    "target": "The target students of the course",
+    "email": "The teacher's contact email"
 }
 ```
 

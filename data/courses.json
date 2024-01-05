@@ -4,8 +4,11 @@
         "title": "An Introduction to Prolog",
         "teacher": "Viviana Mascardi",
         "department": "DIBRIS",
-        "abstract": "In the summer of 1972, Alain Colmerauer and his team in Marseille developed and implemented the first version of the logic programming language Prolog. Together with both earlier and later collaborations with Robert Kowalski and his colleagues in Edinburgh, this work laid the practical and theoretical foundations for the Prolog and logic programming of today. Prolog and its related technologies soon became key tools of symbolic programming and Artificial Intelligence. This statement is taken from the \"The Year of Prolog\" web page ( http://prologyear.logicprogramming.org/): the 50th anniversary of Prolog has been celebrated in 2022 with scientific and dissemination initiatives all over the world. Keeping the momentum going, we offer a compact introductory course on Prolog, with practical exercises and an overview of the existing and future Prolog applications. In particular, we highlight the potential of Prolog for implementing cognitive intelligent agents and for supporting eXplainable Artificial Intelligence (XAI) thanks to its declarative flavor. <b>Prerequisites:</b> No prerequisite is required for this course. <b>Evaluation:</b> Individual project to be designed by the students, with the help of the instructor. The project may be more practical or more theoretical, ranging from development of code to literature review. <b>Reference:</b> The Art of Prolog, second edition, Advanced Programming Techniques by Leon S. Sterling and Ehud Y. Shapiro, 1994",
-        "image": "./images/courses/default.jpg"
+        "abstract": "In the summer of 1972, Alain Colmerauer and his team in Marseille developed and implemented the first version of the logic programming language Prolog. Together with both earlier and later collaborations with Robert Kowalski and his colleagues in Edinburgh, this work laid the practical and theoretical foundations for the Prolog and logic programming of today. Prolog and its related technologies soon became key tools of symbolic programming and Artificial Intelligence. This statement is taken from the \"The Year of Prolog\" web page ( http://prologyear.logicprogramming.org/): the 50th anniversary of Prolog has been celebrated in 2022 with scientific and dissemination initiatives all over the world. Keeping the momentum going, we offer a compact introductory course on Prolog, with practical exercises and an overview of the existing and future Prolog applications. In particular, we highlight the potential of Prolog for implementing cognitive intelligent agents and for supporting eXplainable Artificial Intelligence (XAI) thanks to its declarative flavor. <b>Evaluation:</b> Individual project to be designed by the students, with the help of the instructor. The project may be more practical or more theoretical, ranging from development of code to literature review. <b>Reference:</b> The Art of Prolog, second edition, Advanced Programming Techniques by Leon S. Sterling and Ehud Y. Shapiro, 1994",
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "MSc and PhD students",
+        "email": "viviana.mascardi@unige.it"
     },
     {
         "type": "PhD Course",
@@ -13,7 +16,10 @@
         "teacher": "Angelo Ferrando",
         "department": "DIBRIS",
         "abstract": "The course provides a general introduction to static formal verification (such as Model Checking), and runtime verification. The course will not focus only on the theoretical foundations of the two approaches, but it will offer practical insights as well. For both methodologies, established tools will be presented and experimented (through laboratories). At the end of the course, a more general overview of recent works on runtime verification will also be reported. This will help the students to have a better understanding of the newest features and challenging applications where such formal technique has been applied.",
-        "image": "./images/courses/phdAngelo.jpg"
+        "image": "./images/courses/phdAngelo.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "MSc and PhD students",
+        "email": "angelo.ferrando@unige.it"
     }, 
     {
         "type": "PhD Course",
@@ -23,7 +29,8 @@
         "abstract": "Proof assistants are tools designed to write formal proofs and automatically check their correctness. They are increasingly used  in many different domains, from software verification to formalized mathematics. Most popular proof assistants, such as Agda, Coq or Lean, implement a constructive logic based on a (dependent) type theory. This means that they are strongly typed functional programming languages where types and programs are seen as logical formulas and proofs, respectively, and then correctness of proofs is just ensured by type-checking a program. In the course, we will  study fundamental notions and results on type theories, explaining their connection with logic, and we will experiment formal reasoning in a type theory, using Agda as a concrete system. ",
         "target": "MSc and PhD students", 
         "requirements": "basics of propositional and first order logic", 
-        "image": "./images/courses/default.jpg"
+        "image": "./images/courses/default.jpg",
+        "email": "francesco.dagnino@dibris.unige.it"
     },
     {
         "type": "BSc Course",
@@ -31,7 +38,10 @@
         "teacher": "Elena Zucca",
         "department": "DIBRIS",  
         "abstract": "We introduce notions and results from Automata Theory and Computability Theory which are of paramount importance for a computer scientist. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63569>Webpage</a>",
-        "image": "./images/courses/tac.jpg"
+        "image": "./images/courses/tac.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "elena.zucca@unige.it"
     },
     {
         "type": "MSc Course",
@@ -39,31 +49,43 @@
         "teacher": "Elena Zucca, Francesco Dagnino",
         "department": "DIBRIS",
         "abstract": "The aim is to provide students with a deeper and more critical knowledge of programming languages, through the learning of theoretical foundations and the comparison of different paradigms. <br> Course program: foundations (small-step semantics, type systems, soundness); functional paradigm (lambda calculus, call-by-value and call-by-name, simply-typed lambda-calculus, polymorphism, Hindley-Milner inference); functional programming in Haskell, lazy evaluation, type classes; effects (extensions of lambda-calculus with imperative features and exceptions); object-oriented paradigm (subtyping, Featherweight Java); logic paradigm (Prolog syntax, model-theoretic semantics, SLD resolution); coinduction and coinductive logic programming. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63403?codcla=10852>Webpage</a>",
-        "image": "./images/courses/pppl.jpg"
+        "image": "./images/courses/pppl.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "elena.zucca@unige.it"
     },
     {
-     "type": "BSc course",
-     "title": "Logic",
-     "teacher": "Daniele Porello",
-     "department": "DAFIST",
-     "abstract": "This course provides an introduction to the basics of propositional and first-order predicate logic. The course includes a significant practical component, to get used to logical and mathematical language, to train logical reasoning, to acquire the ability of proving simple logical statements, to practice the evaluation of argumentations. Link: https://rubrica.unige.it/personale/UkNAXlhv",
-     "image": "./images/courses/default.jpg"
+        "type": "BSc course",
+        "title": "Logic",
+        "teacher": "Daniele Porello",
+        "department": "DAFIST",
+        "abstract": "This course provides an introduction to the basics of propositional and first-order predicate logic. The course includes a significant practical component, to get used to logical and mathematical language, to train logical reasoning, to acquire the ability of proving simple logical statements, to practice the evaluation of argumentations. Link: https://rubrica.unige.it/personale/UkNAXlhv",
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "daniele.porello@unige.it"
     },
     {
-         "type": "MSc course",
-         "title": "Logic",
-         "teacher": "Daniele Porello",
-         "department": "DAFIST",
-         "abstract": "The course delves into a few selected topics in classical logic, introduces modal logics, and discusses some topics in non-classical logics. The objective of the course is to prepare students to approach research problems at the intersection of mathematical logic and philosophical logic, formal ontology, and knowledge representation. Link: https://rubrica.unige.it/personale/UkNAXlhv",
-         "image": "./images/courses/default.jpg"
+        "type": "MSc course",
+        "title": "Logic",
+        "teacher": "Daniele Porello",
+        "department": "DAFIST",
+        "abstract": "The course delves into a few selected topics in classical logic, introduces modal logics, and discusses some topics in non-classical logics. The objective of the course is to prepare students to approach research problems at the intersection of mathematical logic and philosophical logic, formal ontology, and knowledge representation. Link: https://rubrica.unige.it/personale/UkNAXlhv",
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "daniele.porello@unige.it"
     },
     {
-         "type": "MSc course",
-         "title": "Philosophy in Artificial Intelligence",
-         "teacher": "Marcello Frixione, Daniele Porello",
-         "department": "DAFIST",
-         "abstract": "The course provides an introduction to a number of fundamental methods in AI, it approaches their logical, epistemological, and semantic foundations, and introduces a number of topics in the contemporary debate in Philosophy of AI. Link: https://rubrica.unige.it/personale/UkNAXlhv",
-         "image": "./images/courses/default.jpg"
+        "type": "MSc course",
+        "title": "Philosophy in Artificial Intelligence",
+        "teacher": "Marcello Frixione, Daniele Porello",
+        "department": "DAFIST",
+        "abstract": "The course provides an introduction to a number of fundamental methods in AI, it approaches their logical, epistemological, and semantic foundations, and introduces a number of topics in the contemporary debate in Philosophy of AI. Link: https://rubrica.unige.it/personale/UkNAXlhv",
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "MSc students",
+        "email": "daniele.porello@unige.it"
     }, 
     {
         "type": "BSc Course",
@@ -71,7 +93,10 @@
         "teacher": "Riccardo Camerlo",
         "department": "DIMA",
         "abstract": "The course introduce set theory as foundational theory for mathematics. Then it presents some subjects peculiar to the theory, like ordinal and cardinal arithmetic, and provides some applications of them to algebra, topology, and analysis. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/69555>Webpage</a>",
-        "image": "./images/courses/default.jpg"
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "riccardo.camerlo@unige.it"
     },
     {
         "type": "BSc Course",
@@ -79,7 +104,10 @@
         "teacher": "Riccardo Camerlo",
         "department": "DIBRIS",
         "abstract": "The course focuses on the basics of propositional and first-order logic. The student is expected to learn the notions of logical consequence and equivalence, the difference between syntax and semantics in a formal language, the concept of interpretation of a formal language and the ability of translating  assertions from natural to formal language and viceversa. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63562>Webpage</a>",
-        "image": "./images/courses/default.jpg"
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "BSc students",
+        "email": "riccardo.camerlo@unige.it"
     },
     {
         "type": "MSc Course",
@@ -87,7 +115,10 @@
         "teacher": "Sara Negri",
         "department": "DIMA",
         "abstract": "The lecture course presents intuitions and mathematical results which relate to the developments in mathematical logic of the last 80 years. This allows to perform a deep analysis of the mathematical practice. The explicit study of mathematical logic lets the expert increase the understanding of the mathematical sciences and produces a fundamental basis for the presentation of mathematical themes and for the accretion of one's own mathematical intuition. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/69495>Webpage</a>",
-        "image": "./images/courses/default.jpg"
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "MSc students",
+        "email": "sara.negri@unige.it"
     },
     {
         "type": "MSc Course",
@@ -95,6 +126,9 @@
         "teacher": "Jacopo Emmenegger and Giuseppe Rosolini",
         "department": "DIMA",
         "abstract": "The lecture course introduces to set theory in its axiomatic form, by explicitly listing basic axioms and, from those, deriving basic theorems which are of major relevance for the mathematical practice. Then the course will be devoted to the development of appropriate techniques to get to independence proofs. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/71151>Webpage</a>",
-        "image": "./images/courses/default.jpg"
+        "image": "./images/courses/default.jpg",
+        "requirements": "No prerequisite is required for this course.",
+        "target": "MSc students",
+        "email": "jacopo.emmenegger@edu.unige.it"
     }
 ]
