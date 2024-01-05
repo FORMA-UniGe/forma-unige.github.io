@@ -49,7 +49,7 @@
         "teacher": "Elena Zucca, Francesco Dagnino",
         "department": "DIBRIS",
         "abstract": "The aim is to provide students with a deeper and more critical knowledge of programming languages, through the learning of theoretical foundations and the comparison of different paradigms. <br> Course program: foundations (small-step semantics, type systems, soundness); functional paradigm (lambda calculus, call-by-value and call-by-name, simply-typed lambda-calculus, polymorphism, Hindley-Milner inference); functional programming in Haskell, lazy evaluation, type classes; effects (extensions of lambda-calculus with imperative features and exceptions); object-oriented paradigm (subtyping, Featherweight Java); logic paradigm (Prolog syntax, model-theoretic semantics, SLD resolution); coinduction and coinductive logic programming. <br> Link: <a href=https://corsi.unige.it/en/off.f/2023/ins/63403?codcla=10852>Webpage</a>",
-        "image": "./images/courses/pppl.jpg",
+        "image": "./images/courses/pppl.png",
         "requirements": "No prerequisite is required for this course.",
         "target": "BSc students",
         "email": "elena.zucca@unige.it"
