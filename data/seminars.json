@@ -1,5 +1,15 @@
 [
     {
+        "title": "Verification of neural-symbolic agent systems",
+        "speaker": "Elena Botoeva",
+        "affiliation": "University of Kent",
+        "abstract": "In this talk I will present a formalisation of closed loop systems comprising neural-symbolic agents and an approach to verify those using fragments of temporal logics. Here we assume a model of agents that are composed of a perception system implemented via feedforward neural networks and an action selection mechanism implemented via traditional control logic. This formalisation admits various instantiations: single or multiple agents, deterministic or non-deterministic environments.  We study the verification problem of such systems against temporal logic properties, for instance branching-time temporal logic (CTL) or alternating-time temporal logic (ATL). We show that verifying these systems against reachability properties is undecidable. We introduce bounded fragments of CTL and ATL, that can be used for identifying shallow bugs in the system, and prove that the verification problem against specifications in these fragments is in coNExpTime and PSpace-hard. We translate the verification problem on bounded traces into the feasibility problem of mixed integer linear programs and show the soundness and completeness of the translation. We present a tool implementing the compilation and evaluate the experimental results obtained on a complex scenario of multiple aircraft operating a recently proposed prototype for air-traffic collision avoidance (VCAS).",
+        "bio": "Prior to joining Kent Elena was a Research Associate in the Verification of Autonomous Systems Group at Imperial College London and a Researcher in the KRDB Research Centre for Knowledge and Data at Free University of Bozen-Bolzano. She has a wide range of research experience with theoretical and practical AI problems such as query answering over ontologies, accessing relational and NoSQL databases using ontologies, and verification of autonomous systems with neural network components.",
+        "image": "./images/seminars/elenabotoeva.jpeg",
+        "when": "14th of February (14:00), 2024",
+        "where": "Viale Causa 15, Aula Tagliasco"
+    },
+    {
         "title": "On the importance and role of Temporal and Epistemic Logics in Agents and Multi-Agent Systems",
         "speaker": "Stefania Costantini",
         "affiliation": "University of L'Aquila",
