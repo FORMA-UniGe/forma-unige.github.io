@@ -47,8 +47,8 @@
     {
         "name": "Angelo",
         "surname": "Ferrando",
-        "affiliation": "DIBRIS, University of Genoa",
-        "role": "Type-A Research Fellow",
+        "affiliation": "University of Modena and Reggio Emilia",
+        "role": "Assistant Professor",
         "image": "./images/people/angelo.jpg",
         "url": "https://angeloferrando.github.io",
         "bib": "https://dblp.org/pid/134/9527.bib"
