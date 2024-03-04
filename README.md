@@ -36,7 +36,7 @@ Example of seminar:
 ```json
 {
     "title": "Title of the seminar",
-    "speaker": "The speacker",
+    "speaker": "The speaker",
     "affiliation": "His/Her affiliation",
     "abstract": "The abstract of the talk, this can be as long as we want.",
     "bio": "The bio of the speaker, this can be as long as we want",
