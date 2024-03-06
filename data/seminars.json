@@ -1,5 +1,15 @@
 [
     {
+        "title": "Lawvere Metric Spaces and Quantales",
+        "speaker": "Eugenio Moggi",
+        "affiliation": "University of Genova",
+        "abstract": "In a 1973 paper Lawvere proposes to view metric spaces as R-enriched categories.  We recall the definitions (metric space X, category C, monoidal category V, V-enriched category C) needed to understand Lawvere's contribution.  We consider a further generalization, where the quantale R is replaces by a generic quantale Q.  We give examples of quantales that arise in several contexts (e.g., in analysis of algorithms), and what are the additional properties of a quantale Q to relate Q-valued metric spaces to topological spaces.",
+        "bio": "Professor Eugenio Moggi, MSc from Pisa (1983) and PhD from Edinburgh (1988), has worked at the Univ. of Cambridge, Edinburgh and Pisa, before moving to Genova in 1990.",
+        "image": "./images/seminars/eugeniomoggi.jpeg",
+        "when": "25th of March (15:00), 2024",
+        "where": "Valletta Puggia, Room 218"
+    },
+    {
         "title": "Verification of neural-symbolic agent systems",
         "speaker": "Elena Botoeva",
         "affiliation": "University of Kent",
