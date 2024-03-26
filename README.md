@@ -42,7 +42,8 @@ Example of seminar:
     "bio": "The bio of the speaker, this can be as long as we want",
     "image": "A picture of the speaker, or about the topic of the seminar to be stored inside the images/seminars folder (put ./images/seminars/default.jpg if no image is present)",
     "when": "Full date of the seminar",
-    "where": "Where the seminar is going to be"
+    "where": "Where the seminar is going to be",
+    "slides": "Path to the PDF file containing the slides of the talk (it should be put in ./data/slides/)"
 }
 ```
 
