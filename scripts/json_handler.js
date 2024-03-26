@@ -59,9 +59,12 @@ function updateSeminars(limit) {
             }
             data.forEach((element, index) => {
                 if(limit && index >= limit) return;
-                document.getElementById("seminarsDiv").innerHTML +=
-                    "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalSem" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Seminar\"><div class=\"card-body\"><h6 class=\"card-title\"><b>" + element["title"] + "</b></h6><i><p><h5>" + element["speaker"] + "</h5><h6>" + element["affiliation"] + "</h6><br><h5>" + element["when"] + "</h5><h5>" + element["where"] + "</h5></p></i></div></div></div>";
-
+                if("slides" in element)
+                    document.getElementById("seminarsDiv").innerHTML +=
+                        "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalSem" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Seminar\"><div class=\"card-body\"><h6 class=\"card-title\"><b>" + element["title"] + "</b></h6><i><p><h5>" + element["speaker"] + "</h5><h6>" + element["affiliation"] + "</h6><br><h5>" + element["when"] + "</h5><h5>" + element["where"] + "</h5><h5><a href=\"" + element["slides"] + "\">Slides</a></h5></p></i></div></div></div>";
+                else
+                    document.getElementById("seminarsDiv").innerHTML +=
+                        "<div class=\"col\"><button type=\"button\" class=\"btn\" data-bs-toggle=\"modal\" data-bs-target=\"#modalSem" + index + "\"><div class=\"card border-primary\"><img src=\"" + element["image"] +  "\" class=\"card-img-top\" alt=\"Seminar\"><div class=\"card-body\"><h6 class=\"card-title\"><b>" + element["title"] + "</b></h6><i><p><h5>" + element["speaker"] + "</h5><h6>" + element["affiliation"] + "</h6><br><h5>" + element["when"] + "</h5><h5>" + element["where"] + "</h5></p></i></div></div></div>";
                 document.getElementById("modals").innerHTML += 
                     `<div class="modal fade" id="modalSem` + index + `" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog modal-dialog-scrollable">

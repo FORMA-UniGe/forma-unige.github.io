@@ -7,7 +7,8 @@
         "bio": "Professor Eugenio Moggi, MSc from Pisa (1983) and PhD from Edinburgh (1988), has worked at the Univ. of Cambridge, Edinburgh and Pisa, before moving to Genova in 1990.",
         "image": "./images/seminars/eugeniomoggi.jpeg",
         "when": "25th of March (15:00), 2024",
-        "where": "Valletta Puggia, Room 218"
+        "where": "Valletta Puggia, Room 218",
+        "slides": "./data/slides/Moggi25032024.pdf"
     },
     {
         "title": "Verification of neural-symbolic agent systems",
