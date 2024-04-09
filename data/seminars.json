@@ -1,5 +1,15 @@
 [
     {
+        "title": "Sound Control Synthesis with Logic and Data",
+        "speaker": "Alessandro Abate",
+        "affiliation": "Oxford University",
+        "abstract": "We are witnessing an inter-disciplinary convergence between scientific areas underpinned by model-based reasoning and by data-driven learning. Access to information-rich data has to be traded off with a demand for safety criticality: cyber-physical systems are exemplar applications. In this talk, I shall report on ongoing research in this cross-disciplinary domain at OXCAV, the Oxford Control and Verification group.  In particular, I shall present recent work on CEGIS, a ``counterexample-guided inductive synthesis'' framework for sound synthesis tasks that are relevant for dynamical models, control problems, and software programs. I shall elucidate the ins&outs of the CEGIS framework, and display its workings on a few problems: synthesis of certificates for dynamical and control models; hybridisation of nonlinear dynamics for safety verification; and an application in real-time autonomy.",
+        "bio": "Alessandro Abate is Professor of Verification and Control in the Department of Computer Science at the University of Oxford, where he also served as Deputy Head. Earlier, he did research at Stanford University and at SRI International, and was an Assistant Professor at the Delft Center for Systems and Control, TU Delft. He received a Laurea degree from the University of Padua and MS/PhD at UC Berkeley. His research work spans logic, probability, control, and AI.",
+        "image": "./images/seminars/alessandroabate.jpeg",
+        "when": "19th of April (14:00), 2024",
+        "where": "Viale Causa 13, Aula Tagliasco"
+    },
+    {
         "title": "Lawvere Metric Spaces and Quantales",
         "speaker": "Eugenio Moggi",
         "affiliation": "University of Genova",
