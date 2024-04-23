@@ -17,7 +17,8 @@
         "bio": "Alessandro Abate is Professor of Verification and Control in the Department of Computer Science at the University of Oxford, where he also served as Deputy Head. Earlier, he did research at Stanford University and at SRI International, and was an Assistant Professor at the Delft Center for Systems and Control, TU Delft. He received a Laurea degree from the University of Padua and MS/PhD at UC Berkeley. His research work spans logic, probability, control, and AI.",
         "image": "./images/seminars/alessandroabate.jpeg",
         "when": "19th of April (14:00), 2024",
-        "where": "Viale Causa 13, Aula Tagliasco"
+        "where": "Viale Causa 13, Aula Tagliasco",
+        "slides": "./data/slides/Abate19042024.pdf"
     },
     {
         "title": "Lawvere Metric Spaces and Quantales",
