@@ -1,5 +1,15 @@
 [
     {
+        "title": "Extensible proof-systems for modal logics",
+        "speaker": "Margherita Zorzi",
+        "affiliation": "Università di Verona",
+        "abstract": "Proof theory offers various approaches to modal logic, each incorporating varying levels of additional technology into the fundamental formats, such as deduction, sequent calculi, tableaux, etc., to effectively handle modalities. Similar to first-order systems, a modal deductive system should embody the following critical attributes: simplicity, analyticity, properties of cut elimination or normalization, and modularity. In this talk, our focus will be on the \"geometric\" approach, which extends formulas using a notion of position (originating from 2-sequents developed in the early 1990s). We will explore the fundamental concepts for handling various logics between K and S5, focusing on the intermediate system S4.2.",
+        "bio": "Dr. Margherita Zorzi, Ph.D, is an Assistant Professor at the Department of Computer Science, Università degli Studi di Verona, specializing in Mathematical Logic, Logical Methods in Computer Science, and Quantum Computing. She is a member of the LOGICA research group and the QUILAB (Quantum Informatics LABoratory), where she focuses on Quantum Logics and Quantum Measurements. With extensive experience in teaching courses on Mathematical Logic and Informatics, Dr. Zorzi has authored numerous papers in international journals and presented at prestigious conferences. She holds national and international qualifications in Logic and Computer Science, demonstrating her expertise and dedication to advancing the field.",
+        "image": "./images/seminars/margheritazorzi.jpeg",
+        "when": "9th of May (16:00), 2024",
+        "where": "Valletta Puggia, Room 704"
+    },
+    {
         "title": "On Model-Checking Higher-Order Effectful Programs",
         "speaker": "Ugo Dal Lago",
         "affiliation": "Università di Bologna",
