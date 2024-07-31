@@ -1,15 +1,5 @@
 [
     {
-        "title": "Method of Equal Shares in Practice",
-        "speaker": "Piotr Faliszewski",
-        "affiliation": "AGH University, Kraków, Poland",
-        "abstract": "The idea of participatory budgeting is that a city allows its inhabitants to choose how some amount of budget is spent. Typically, the most active citizens first propose possible projects to implement and, then, the people vote on which of them should be carried out. While in principle this is a very attractive idea, most cities that implement participatory budgeting use a simple, greedy voting method, which promotes undesirable behavior (such as merging projects that are only loosely connected). Method of Equal Shares (MES) is a recently introduced voting rule for participatory budgeting that guarantees strong proportionality and fairness properties. In this talk, we will introduce MES, discuss how it was implemented in practical settings, and how formal methods helped in both using the rule and convincing the cities to use it (up to now, six different municipalities in several different countries adopted the rule).",
-        "bio": "Piotr Faliszewski is a Full Professor of Computer Science at AGH University of Science and Technology in Kraków, Poland. His research interests include computational social choice, preference aggregation, complexity of elections, cooperative game theory, algorithms, and approximation algorithms. He received his Ph.D. in Computer Science from the University of Rochester in 2008 and his Habilitation in Computer Science from AGH University of Science and Technology in 2013. He was granted the title of Professor of Computer Science in 2021. Faliszewski has held academic positions at several institutions, including AGH University of Science and Technology, Université Paris-Dauphine, and Technische Universität Berlin. He has received numerous honors, including the Friedrich Wilhelm Bessel Research Award from the Alexander von Humboldt Foundation in 2018 and the Research Prize from Polityka magazine in 2013. He has also been nominated for multiple best paper awards and has a substantial record of publications in top-tier journals and conferences.",
-        "image": "./images/seminars/piotr.jpeg",
-        "when": "11th of September (11:00), 2024",
-        "where": "Valletta Puggia, Room 217"
-    },
-    {
         "title": "Psychoanalysis of ChatGPT",
         "speaker": "Georg Gottlob",
         "affiliation": "Università della Calabria",
