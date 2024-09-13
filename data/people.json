@@ -63,6 +63,15 @@
         "bib": "https://dblp.org/pid/75/6859.bib"
     },
     {
+        "name": "Andrea",
+        "surname": "Gatti",
+        "affiliation": "DIBRIS, University of Genoa",
+        "role": "PhD Student",
+        "image": "./images/people/andrea.jpeg",
+        "url": "https://rubrica.unige.it/personale/UUdOXVNr",
+        "bib": "https://dblp.org/pid/229/5885-2"
+    },
+    {
         "name": "Enrico",
         "surname": "Ghiorzi",
         "affiliation": "DIBRIS, University of Genoa",
@@ -124,6 +133,15 @@
         "image": "./images/people/daniele.png",
         "url": "https://www.danieleporello.net",
         "bib": "https://dblp.org/pid/33/8219.bib"
+    },
+    {
+        "name": "Carlo",
+        "surname": "Proietti",
+        "affiliation": "ILC, CNR",
+        "role": "Senior Researcher",
+        "image": "./images/people/carlo.jpg",
+        "url": "https://www.ilc.cnr.it/people/carlo-proietti-2/",
+        "bib": "https://dblp.org/pid/45/8696.bib"
     },
     {
         "name": "Giuseppe",
