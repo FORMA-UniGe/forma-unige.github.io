@@ -1,5 +1,15 @@
 [
     {
+        "title": "Robustness issues in algorithmic recourse",
+        "speaker": "Francesco Leofante",
+        "affiliation": "Imperial College London",
+        "abstract": "Counterfactual explanations (CEs) are advocated as being ideally suited to providing algorithmic recourse for subjects affected by the predictions of machine learning models. While CEs can be beneficial to affected individuals, recent work has exposed severe issues related to the robustness of state-of-the-art methods for obtaining CEs. Since a lack of robustness may compromise the validity of CEs, techniques to mitigate this risk are in order. In this talk we will begin by introducing the problem of (lack of) robustness, discuss its implications and present some recent solutions we developed to compute CEs with robustness guarantees.",
+        "bio": "Francesco is an Imperial College Research Fellow affiliated with the Centre for Explainable Artificial Intelligence at Imperial College London. His research focuses on safe and explainable AI, with special emphasis on counterfactual explanations and their robustness. Since 2022, he leads the project “ConTrust: Robust Contrastive Explanations for Deep Neural Networks”, a four-year effort devoted to the formal study of robustness issues arising in XAI. More details about Francesco and his research can be found at https://fraleo.github.io/.",
+        "image": "./images/seminars/leofante.jpg",
+        "when": "11th of December (12:30), 2024",
+        "where": "Valletta Puggia, Room 322"
+    },
+    {
         "title": "Method of Equal Shares in Practice",
         "speaker": "Piotr Faliszewski",
         "affiliation": "AGH University, Kraków, Poland",
