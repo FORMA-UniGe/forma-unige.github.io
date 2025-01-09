@@ -1,5 +1,15 @@
 [
     {
+        "title": "Symbolic Pattern Planning",
+        "speaker": "Matteo Cardellini",
+        "affiliation": "University of Genoa",
+        "abstract": "Planning involves finding a sequence of actions to reach a goal from an initial state, with variations depending on the representation of the environment: classical (propositional variables), numerical (numeric variables) and temporal (actions with durations). To find a plan, the Planning as Satisfiability approach limits the length of the plan by an integer n, encodes plans as a propositional formula, and checks its satisfiability, increasing n as needed. In this seminar, we will discuss Symbolic Pattern Planning (SPP), a new approach based on Planning as Satisfiability. SPP fixes a pattern - i.e., a finite sequence of actions that outline an intuitive plan order - and encodes the state resulting from the execution of subsequences of the pattern. By iteratively checking and refining the pattern, a valid plan is guaranteed to be found iff one exists. We will demonstrate the SPP approach for classical, numerical, and temporal planning, achieving improved efficiency over state-of-the-art methods. Finally, we will show how to enhance SPP to iterative extension and simplification of patterns during the search.",
+        "bio": "Matteo is a research fellow at University of Genoa. He recently got his PhD from the University of Turin in the context of the “National PhD in AI programme”. His research focuses on automated planning, with special emphasis on planning  in expressive domains. More details about Matteo and his research can be found at https://www.matteocardellini.it/.",
+        "image": "./images/seminars/cardellini.jpg",
+        "when": "27th of January (11:30), 2025",
+        "where": "Valletta Puggia, Room 711"
+    },
+    {
         "title": "Robustness issues in algorithmic recourse",
         "speaker": "Francesco Leofante",
         "affiliation": "Imperial College London",
