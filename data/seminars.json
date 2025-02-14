@@ -1,5 +1,15 @@
 [
     {
+        "title": "Locally Abstract, Globally Concrete Semantics of Concurrent Programming Languages",
+        "speaker": "Violet Ka I Pun",
+        "affiliation": "Western Norway University of Applied Sciences",
+        "abstract": "Formal, mathematically rigorous programming language semantics are the essential prerequisite for the design of logics and calculi that permit automated reasoning about concurrent programs. We propose a novel modular semantics designed to align smoothly with program logics used in deductive verification and formal specification of concurrent programs. Our semantics separates local evaluation of expressions and statements performed in an abstract, symbolic environment from their composition into global computations, at which point they are concretised. This makes incremental addition of new language concepts possible, without the need to revise the framework. The basis is a generalisation of the notion of a program trace as a sequence of evolving states that we enrich with event descriptors and trailing continuation markers. This allows to postpone scheduling constraints from the level of local evaluation to the global composition stage, where well-formedness predicates over the event structure declaratively characterise a wide range of concurrency models. We also illustrate how a sound program logic and calculus can be defined for this semantics.",
+        "bio": "Violet Ka I Pun is currently associate professor in Software Engineering research group, at Western Norway University of Applied Sciences. Before that, she was a postdoctoral researcher in the research group Precise Modeling and Analysis at the University of Oslo and a senior lecturer at the University of Bergen. She received her PhD degree in Computer Science at the University of Oslo, and had her earlier education at the University of Macau. Her major areas of expertise are using formal methods to verify the behaviour of concurrent programs, with the focus on statically estimating worst-case execution time and scheduling concurrent tasks running on scalable distributed systems, formal modelling and analysis of multicore architectures, as well as information flow analysis for concurrent programs. Recently, she is working on model-based business process planning with tool-supported and automated analyses in terms of formal methods. In addition, she is interested in digitalisation of healthcare domain, including data privacy and self-adapting patient treatments.",
+        "image": "./images/seminars/pun.jpg",
+        "when": "20th of February (11:00), 2025",
+        "where": "Valletta Puggia, Room 215"
+    },
+    {
         "title": "Symbolic Pattern Planning",
         "speaker": "Matteo Cardellini",
         "affiliation": "University of Genoa",
@@ -7,6 +17,16 @@
         "bio": "Matteo is a research fellow at University of Genoa. He recently got his PhD from the University of Turin in the context of the “National PhD in AI programme”. His research focuses on automated planning, with special emphasis on planning  in expressive domains. More details about Matteo and his research can be found at https://www.matteocardellini.it/.",
         "image": "./images/seminars/cardellini.jpg",
         "when": "27th of January (11:30), 2025",
+        "where": "Valletta Puggia, Room 711"
+    },
+    {
+        "title": "Towards a Quantitative Predicate Logic",
+        "speaker": "Matteo Capucci",
+        "affiliation": "University of Strathclyde",
+        "abstract": "I will report work-in-progress on the development of QPL, a predicate logic extending Bacci-Mardare-Panangaden-Plotkin's 'Polynomial Lawvere Logic', which is itself an extension of fuzzy product logic. The intended semantics of QPL are random variables taking values in the positive reals. Its main feature is a parameterized family of additive connectives interpolating between sum/harmonic sum and max/min, parameterized by an inverse temperature parameter p=1/T. This allows to tune the 'crispness' of the logic (the colder, the crisper). I'll argue then that p-means (i.e. p-integrals over probability spaces) provide an interesting notion of quantification, adequate for various kinds of applications. I will then discuss a tentative categorical semantics of this logic, in which p-means are indeed adjoint to reindexing as expected, discuss its shortcomings and point towards possible resolutions.",
+        "bio": "I'm an independent researcher, currently funded by ARIA under the 'Safeguarded AI' programme, phase TA1.1. I'm also in the process of finish my PhD at the University of Strathclyde, part of the MSP group, under the supervision of Neil Ghani, Radu Mardare and Jules Hedges. I work in applied category theory, focusing on developing a principled mathematical description of open complex systems, especially those exhibiting agency, such as players in a game, learners and reasoners (cybernetic systems). My tools of choice are formal category theory, dependent types and graphical syntax.",
+        "image": "./images/seminars/capucci.jpg",
+        "when": "21st of January (11:30), 2025",
         "where": "Valletta Puggia, Room 711"
     },
     {
