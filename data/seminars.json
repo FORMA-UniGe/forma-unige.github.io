@@ -1,5 +1,15 @@
 [
     {
+        "title": "An approach to memory safety through secure compilation",
+        "speaker": "Alberto Tacchella",
+        "affiliation": "University of Trento",
+        "abstract": "While the use of memory-safe programming languages is growing, many software applications, especially for low-end devices, are still written in C or C++ and are thus prone to all the pitfalls of manual memory management. The last 40 years of experience show that memory errors are very hard to avoid and typically lead to security vulnerabilities and other undesired behaviours. In this talk I will report on some work in progress towards the development of a secure compilation framework that is able to translate source programs in (a simplified version of) the C programming language to an ISA-independent assembly-level language, with the goal of providing reliable guarantees on the memory safety of translated programs. Our approach is based on a formalization of memory tagging (also known as memory coloring), a hardware-based mechanism that can be used to enforce a memory-safe semantics for pointer accesses. Some implementations of memory tagging are already available in commodity hardware (e.g. the MTE for the ARM v8.5-A architecture), and others are expected to appear in the near future.",
+        "bio": "Alberto is a research fellow at the Department of Information Engineering and Computer Science of the University of Trento. He received his PhD in Mathematics from the University of Genoa in 2010 and has held post-doctoral positions at the University of Sao Paulo, the University of Genoa and the Fondazione Bruno Kessler in Trento. His research interests include the theory of dynamical systems (continuous, hybrid and cyber-physical), formal logic and its applications to system verification, and the semantics of programming languages. More details about Alberto and his research can be found at https://atlog.it/.",
+        "image": "./images/seminars/tacchella.jpg",
+        "when": "14th of March (11:30), 2025",
+        "where": "Viale Causa 13, Aula Tagliasco"
+    },
+    {
         "title": "Locally Abstract, Globally Concrete Semantics of Concurrent Programming Languages",
         "speaker": "Violet Ka I Pun",
         "affiliation": "Western Norway University of Applied Sciences",
