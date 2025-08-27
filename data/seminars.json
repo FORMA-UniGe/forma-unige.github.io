@@ -1,5 +1,15 @@
 [
     {
+        "title": "The two AIs: Future-gazing through a socio-linguistic and historical lens",
+        "speaker": "Veronica Dahl",
+        "affiliation": "Simon Fraser University",
+        "abstract": "We discuss the importance of taking into account holistic historical and socio-linguistic perspectives to inspire us in re-directing those  AI  efforts that stress imitative or dominating goals, into the overall goal of /complementing/ human intelligence to help people achieve shared prosperity equitably, within planetary limits.",
+        "bio": "Verónica Dahl is an Argentine/Canadian mother, computer scientist, musician and writer, recognised by ALP as co-founder of the Logic Programming field. Her work in cognitive sciences, computational linguistics, deductive knowledge bases, computational molecular biology and web based virtual worlds won her awards such as the Calouste Gulbenkian Award for Science and Technology and the European Commission’s Marie Curie Chair of Excellence. Her literary work on Creative Non-Fiction won her three first prizes. She has served as President of the ALP, Chair of SFU’s Cognitive Sciences Program, member of NSERC's Grant and of the Killam Prize Selection Committees, and Compulog Net/ Compulog Americas Coordinator. She is an NSERC-funded Professor Emeritus at SFU and leads the international consortium PEG2.0. Her present research aims at helping stop language extinction through grammar induction and on computationally aiding Doughnut Economics projects, towards a world no longer organized around domination, but around solidarity and sharing.",
+        "image": "./images/seminars/VeronicaDahl.png",
+        "when": "22nd of September (15:00), 2025",
+        "where": "Valletta Puggia, Room 711"
+    },
+    {
         "title": "An approach to memory safety through secure compilation",
         "speaker": "Alberto Tacchella",
         "affiliation": "University of Trento",
