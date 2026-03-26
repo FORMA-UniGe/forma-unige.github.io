@@ -1,5 +1,15 @@
 [
     {
+        "title": "Correct-by-construction execution of Behavior Trees",
+        "speaker": "Alberto Tacchella",
+        "affiliation": "University of Trento",
+        "abstract": "Behavior Trees are a graphical model used to specify a discrete decision-making or task selection process as an ordered rooted tree. They are widely used in the robotic and computer gaming domains to specify reactive and fault-tolerant task executions by virtue of their flexibility and better readability when compared to classical models of computation like finite state machines. In this talk I will illustrate two possible formal operational semantics for Behavior Trees, one defined in terms of (hierarchical) finite state machines, and another defined via a shallow embedding in the type theory underlying the Coq proof assistant. Then I will show how one can (informally) relate these two semantics. I will conclude by discussing possible extensions and further developments of this work.",
+        "bio": "Alberto is a research fellow at the Department of Information Engineering and Computer Science of the University of Trento. He received his PhD in Mathematics from the University of Genoa in 2010 and has held post-doctoral positions at the University of Sao Paulo, the University of Genoa and the Fondazione Bruno Kessler in Trento. His research interests include the theory of dynamical systems (continuous, hybrid and cyber-physical), formal logic and its applications to system verification, and the semantics of programming languages. More details about Alberto and his research can be found at https://atlog.it/.",
+        "image": "./images/seminars/tacchella.jpg",
+        "when": "8th of April (11:00), 2026",
+        "where": "Valletta Puggia, Room 216"
+    },
+    {
         "title": "Tu chiamale se vuoi emozioni",
         "speaker": "Paolo Rosso",
         "affiliation": "Universitat Politècnica de València",
