@@ -3,7 +3,6 @@
 Open the relevant file in `data/`, copy an existing entry, and edit its fields.
 Save the file and reload the page to preview the change. To publish on GitHub
 Pages, commit the edited file and any new images or slides.
-
 The same files are used online and when you open the site directly from disk.
 For a local preview, extract the full archive and open `index.html` in your
 browser. Updating the contents only requires a text editor.
