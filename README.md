@@ -1,94 +1,126 @@
-# How to update the website
+# How to update the FORMA website
 
-The website is dynamically updated by reading .json files stored inside the data folder. Each of these files tackles a different aspect of the website.
+Open the relevant file in `data/`, copy an existing entry, and edit its fields.
+Save the file and reload the page to preview the change. To publish on GitHub
+Pages, commit the edited file and any new images or slides.
 
-Let us go through each one of them.
+The same files are used online and when you open the site directly from disk.
+For a local preview, extract the full archive and open `index.html` in your
+browser. Updating the contents only requires a text editor.
+
+| Content | File |
+| --- | --- |
+| News | `data/news.js` |
+| Seminars | `data/seminars.js` |
+| Courses | `data/courses.js` |
+| Members and their DBLP profiles | `data/people.js` |
+
+Each file contains a list inside `FormaData.register("…", [ … ]);`. Keep
+that wrapper in place. Separate entries with commas and keep the
+double quotes around field names and values. For a literal double quote
+inside a value, write `\"`. Paths such as `./images/people/name.jpg` are
+relative to the website root.
 
 ## News
 
-The website shows the last three news on the main page. The rest of the news can be found on the news page (by clicking on the "News Archive" button).
+Add the latest item at the beginning of the list in `data/news.js`. The
+homepage shows the first three items and the News Archive shows the full list.
 
-Each news is described as follows:
-
-```json
+```js
 {
-    "title": "Title of the NEWS",
-    "image": "path to the image to put inside the news (if no image is present, please add ./images/news/default.jpg)",
-    "abstract": "The abstract of the news, this must be short and cut to the point",
-    "content": "The actual content of the news, which will be shown in the card appearing once the news is clicked"
+    "title": "News title",
+    "image": "./images/news/default.jpg",
+    "abstract": "Short summary for the card.",
+    "content": "Full text shown when the card is opened."
 }
 ```
 
-To be added in news.json.
-
-REMEMBER: Each item in the list has to be separated by a comma (",").
-
-The news are loaded in order. Thus, the first three in the list will be ones showed on the main page (the rest in the supporting web page dedicated to all other news). 
-
-SO, THE NEWS SHOULD BE ADDED IN THE HEAD OF THE LIST
+Put any new images in `images/news/`. The `content` field supports HTML.
 
 ## Seminars
 
-Same reasoning follows for the seminars. The three most recent seminars are shown on the website, while the others can be found in the archive (pressing on the "Seminars Archive" button). Also here, the order is important (i.e., the most recent seminars should be added in the head of the list).
+Add the latest seminar at the beginning of the list in `data/seminars.js`.
+The homepage shows the first three seminars and the Seminars Archive shows
+the full list.
 
-Example of seminar:
-
-```json
+```js
 {
-    "title": "Title of the seminar",
-    "speaker": "The speaker",
-    "affiliation": "His/Her affiliation",
-    "abstract": "The abstract of the talk, this can be as long as we want.",
-    "bio": "The bio of the speaker, this can be as long as we want",
-    "image": "A picture of the speaker, or about the topic of the seminar to be stored inside the images/seminars folder (put ./images/seminars/default.jpg if no image is present)",
-    "when": "Full date of the seminar",
-    "where": "Where the seminar is going to be",
-    "slides": "Path to the PDF file containing the slides of the talk (it should be put in ./data/slides/)"
+    "title": "Seminar title",
+    "speaker": "Speaker One, Speaker Two",
+    "affiliation": "University One and University Two",
+    "abstract": "Abstract of the seminar.",
+    "bio": "Short biographies of the speakers.",
+    "image": "./images/seminars/default.jpg",
+    "date": "2027-02-15",
+    "time": "14:00",
+    "where": "Valletta Puggia, Room 322",
+    "slides": "./data/slides/seminar-slides.pdf"
 }
 ```
 
-To be added in seminars.json.
+Use `YYYY-MM-DD` for the date and 24-hour `HH:MM` for the local start time.
+Omit `time` or `slides` when that information is unavailable. Put new seminar
+images in `images/seminars/` and slide PDFs in `data/slides/`.
+
+Paolo Rosso’s portrait comes from his [AESLA 2024 speaker profile](https://aesla2024.upv.es/eng/biodata/rosso.html).
 
 ## Courses
 
-Similar to the previous ones, we may find the courses. Differently from before, courses are not ordered, and are picked randomly (to be as fair as possible). Which means, three courses are picked randomly every time the page is loaded, and are shown on the main page (while the rest are available at their dedicated page thorugh the "All courses" button).
+Add each course to `data/courses.js`. Three courses are selected at random
+for the homepage and the All Courses page shows the full list.
 
-Example of course:
-
-```json
+```js
 {
-    "type": "Type of course (eg. PhD Course, Master course, and so on)",
-    "title": "The title of the course",
-    "teacher": "The teacher(s) of the course",
-    "department": "The department in which the course is done",
-    "abstract": "The full description of the course (as long as you want)",
-    "image": "A picture representing the course (put ./images/courses/default.jpg if no image is present)",
-    "requirements": "The prerequisites of the course",
-    "target": "The target students of the course",
-    "email": "The teacher's contact email"
+    "type": "PhD Course",
+    "title": "Course title",
+    "teacher": "Instructor name",
+    "department": "DIBRIS",
+    "abstract": "Course description.",
+    "image": "./images/courses/course-cover.svg",
+    "requirements": "Prerequisites for the course.",
+    "target": "MSc and PhD students",
+    "email": "instructor@example.org"
 }
 ```
 
-To be added in courses.json.
+Save the cover in `images/courses/` and use an image or illustration specific
+to the course.
 
 ## People
 
-Last, but not least, we may find the people of FORMA. So, who is part of the group. The list of people on the main page is always fully loaded, so everyone is on the main page.
+Add members to `data/people.js`. Each entry appears on the homepage in the
+same order as in the file.
 
-Example of person:
-
-```json
+```js
 {
-    "name": "Name",
-    "surname": "Surname",
-    "affiliation": "Affiliation",
+    "name": "First name",
+    "surname": "Last name",
+    "affiliation": "Department and university",
     "role": "Position",
-    "image": "A photo to be added in the images/people folder (put ./images/people/default.jpg if no photo is available)",
-    "url": "url to personal website",
-    "bib": "url to DBLP, this is used for creating the publications webpage"
+    "image": "./images/forma_logo.png",
+    "url": "https://example.org/profile",
+    "bib": "https://dblp.org/pid/z/EZucca"
 }
 ```
 
-To be added in people.json.
+Put verified portraits in `images/people/`. Use `./images/forma_logo.png`
+when no verified photo is available. Omit `bib` for a member without a DBLP
+profile.
 
-Note that, differently from all the rest, the publications page is not populated automatically (only semi-automatically). Indeed, when a new person is added in people.json, we need to manually update publications.html by copying and pasting an additional accordion HTML tag. In such a copy, we need to change the ID of the tags (with the proper number) and update the bibbase url (with the DBLP one).
+## Publications
+
+The Publications page lists members who have a DBLP profile. Put the member's
+persistent profile URL or its `.bib` export URL in the `bib` field. When the
+site is served over HTTP or HTTPS, opening a bibliography retrieves records
+from 2020 onwards directly from [DBLP](https://sparql.dblp.org/).
+
+For offline use or when DBLP is temporarily unavailable, the site reads the
+saved records in `data/publications.js`. To refresh that copy:
+
+1. Open `tools/refresh-publications.html` in a browser while online.
+2. Click **Fetch from DBLP**, then **Download publications.js**.
+3. Replace `data/publications.js` with the downloaded file and commit it to
+   refresh the copy used on GitHub Pages.
+
+Use the maintenance page over HTTP or HTTPS if your browser restricts online
+requests from files opened directly from disk.

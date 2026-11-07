@@ -1,20 +1,12 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;600&display=swap" rel="stylesheet">
-
-    <title>FORMA</title>
+    <meta name="theme-color" content="#fec207">
+    <meta name="description" content="FORMA, the University of Genoa research group on formal methods and logic in action.">
+    <title>Courses | FORMA</title>
+    <link rel="stylesheet" href="./css/main.css">
     <link rel="apple-touch-icon" sizes="57x57" href="./images/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./images/favicon/apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="./images/favicon/apple-icon-72x72.png">
@@ -28,90 +20,62 @@
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="./images/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-    <link rel="manifest" href="./images/favicon/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./images/favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
+    <script src="./scripts/navigation.js" defer></script>
+    <script src="./scripts/site-data.js" defer></script>
+    <script src="./scripts/collections.js" defer></script>
   </head>
-
-  <body>
-    <!--Navbar-->
-    <nav class="navbar fixed-top navbar-light bg-light navbar-expand-lg">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html"><img src="./images/forma_logo.png" alt="" width="60" height="60" class="d-inline-block"> FORMA</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+  <body id="top">
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header">
+      <nav class="wrap navigation" aria-label="Main navigation">
+        <a class="brand" href="./index.html">
+          <img src="./images/forma_logo.png" alt="" width="44" height="47">
+          <span><strong>FORMA</strong><small>University of Genoa</small></span>
+        </a>
+        <button class="menu-toggle" type="button" aria-controls="site-menu" aria-expanded="false" hidden>
+          <span class="menu-icon" aria-hidden="true"></span> Menu
         </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-              <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link active" aria-current="page" href="./index.html#aboutus">ABOUT US</a>
-              </li>
-                <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link" href="./index.html#news" aria-disabled="true">News & Events</a>
-                </li>
-              <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link" href="./publications.html" aria-disabled="true">Publications</a>
-              </li>
-              <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link" href="./index.html#seminars" aria-disabled="true">Seminars</a>
-              </li>
-              <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link" href="./index.html#courses" aria-disabled="true">Courses</a>
-              </li>
-              <li class="nav-item d-1" style="--b:3px;--d:10px;" >
-                <a class="nav-link" href="./index.html#people">People</a>
-              </li>
-            </ul>
-        </div>
-      </div>
-    </nav>
+        <ul class="site-menu" id="site-menu">
+          <li><a class="nav-link d-1" href="./index.html#aboutus">About us</a></li>
+          <li><a class="nav-link d-1" href="./index.html#news">News &amp; Events</a></li>
+          <li><a class="nav-link d-1" href="./publications.html">Publications</a></li>
+          <li><a class="nav-link d-1" href="./index.html#seminars">Seminars</a></li>
+          <li><a class="nav-link d-1" href="./courses.html" aria-current="page">Courses</a></li>
+          <li><a class="nav-link d-1" href="./index.html#people">People</a></li>
+        </ul>
+      </nav>
+    </header>
 
-  <!--Start container-->
-    <div class="container mt-3">
-        <section id="courses" class="text-center">
-            <h3 class="text-center">Courses</h3>
-            <div id="coursesDiv" class="row row-cols-1 row-cols-sm-1 row-cols-md-3"></div>
-        </section>
-
-      <!-- Footer -->
-      <div id="footer">
-        <div id="contacts">
-          <!-- signup form -->
-          <hr class="mt-5">
-          <div class="row align-items-center">
-            <div class="col">
-              <p><strong>&copy; 2023 FORMA</strong></p>
-              <!-- <div class="icons">
-                <a href="#" class="text-decoration-none">
-                  <i class="bi bi-envelope-fill"></i>
-                </a>
-                <a href="#" class="text-decoration-none">
-                  <i class="bi bi-facebook"></i>
-                </a>
-                <a href="#" class="text-decoration-none">
-                  <i class="bi bi-twitter"></i>
-                </a>
-                <a href="#" class="text-decoration-none">
-                  <i class="bi bi-github"></i>
-                </a>
-              </div> -->
-              <!-- <div class="col-md-5 text-center text-md-end py-2">
-                <span> &copy; 2023 FORMA</span>
-              </div> -->
-            </div>
+    <main id="main" tabindex="-1" class="archive">
+      <header class="archive-heading">
+        <div class="wrap archive-title">
+          <div class="archive-meta">
+            <a class="back-link" href="./index.html">← Home</a>
           </div>
+          <h1>Courses</h1>
         </div>
+      </header>
+      <div class="wrap archive-content">
+        <div class="filter-bar" role="search" aria-label="Find a course" data-filter-for="coursesDiv" data-singular="course" data-plural="courses" hidden>
+          <label class="search-field"><svg width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.25"/><path d="m15 15 5 5"/></svg>
+            <span class="visually-hidden">Find a course</span>
+            <input type="search" placeholder="Find a course" aria-controls="coursesDiv">
+          </label>
+          <p class="filter-count" role="status"></p>
+        </div>
+        <div class="collection course-collection" id="coursesDiv" data-collection="courses"></div>
       </div>
+    </main>
+    <div id="modals"></div>
 
-      <div id="modals"></div>
-    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    </div>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div><strong>FORMA</strong><span>FORmal Methods and logic in Action</span></div>
+        <div class="footer-meta"><span>University of Genoa</span><small>&copy; 2023 FORMA</small></div>
+        <a class="footer-top" href="#top">Back to top <span aria-hidden="true">↑</span></a>
+      </div>
+    </footer>
   </body>
-
-  <script type="text/javascript" src="scripts/json_handler.js"></script>
-  <script type="text/javascript">
-    updateCourses();
-  </script>
 </html>

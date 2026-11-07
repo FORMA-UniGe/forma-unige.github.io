@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Refresh the DBLP snapshot · FORMA</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="../scripts/site-data.js" defer></script>
+    <script src="../scripts/dblp.js" defer></script>
+    <script src="../scripts/refresh-publications.js" defer></script>
+</head>
+<body>
+    <main class="archive">
+        <header class="archive-heading">
+            <div class="wrap archive-title">
+                <a class="back-link" href="../index.html">← FORMA homepage</a>
+                <h1>Refresh the DBLP snapshot</h1>
+            </div>
+        </header>
+        <div class="wrap archive-content">
+            <p class="publication-intro">Fetch the latest publications for the profiles in <code>data/people.js</code>. Download the result and use it to replace <code>data/publications.js</code>.</p>
+            <button id="refresh" type="button" class="btn btn-primary d-1" disabled>Fetch from DBLP</button>
+            <a id="download" class="btn btn-dark d-1" download="publications.js" hidden>Download publications.js</a>
+            <p id="status" role="status"></p>
+            <noscript><p>Enable JavaScript to refresh the snapshot.</p></noscript>
+        </div>
+    </main>
+</body>
+</html>

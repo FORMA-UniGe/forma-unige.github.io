@@ -1,8 +1,9 @@
-[
+// Edit this list directly. See the README for a complete example.
+FormaData.register("news", [
     {
         "title": "We are now in FORMA!",
         "image": "./images/news/kick-off.png",
         "abstract": "Kick-off meeting of the FORMA research group",
         "content": "On the 6th of July, 2023, at the Department of Informatics, Bioengineering, Robotics and Systems Engineering of the University of Genoa, the first kick-off meeting of the FORMA group took place."
     }
-]
+]);

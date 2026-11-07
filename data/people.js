@@ -1,4 +1,5 @@
-[
+// Edit this list directly. See the README for a complete example.
+FormaData.register("people", [
     {
         "name": "Davide",
         "surname": "Ancona",
@@ -13,7 +14,7 @@
         "surname": "Camerlo",
         "affiliation": "DIMA, University of Genoa",
         "role": "Associate Professor",
-        "image": "./images/people/default.jpg",
+        "image": "./images/forma_logo.png",
         "url": "https://rubrica.unige.it/personale/UkJEXVhu",
         "bib": "https://dblp.org/pid/10/2806.bib"
     },
@@ -40,7 +41,7 @@
         "surname": "Emmenegger",
         "affiliation": "DIMA, University of Genoa",
         "role": "TypeA Research Fellow",
-        "image": "./images/people/default.jpg",
+        "image": "./images/forma_logo.png",
         "url": "https://rubrica.unige.it/personale/UkJFXVNv",
         "bib": "https://dblp.org/pid/286/1554.bib"
     },
@@ -76,7 +77,7 @@
         "surname": "Ghiorzi",
         "affiliation": "DIBRIS, University of Genoa",
         "role": "Postdoctoral Research Associate",
-        "image": "./images/people/default.jpg",
+        "image": "./images/forma_logo.png",
         "url": "https://enricoghiorzi.github.io",
         "bib": "https://dblp.org/pid/283/5297.bib"
     },
@@ -112,7 +113,7 @@
         "surname": "Narizzano",
         "affiliation": "DIBRIS, University of Genoa",
         "role": "Research Fellow",
-        "image": "./images/people/default.jpg",
+        "image": "./images/forma_logo.png",
         "url": "https://rubrica.unige.it/personale/UkNHXV9o",
         "bib": "https://dblp.org/pid/42/105.bib"
     },
@@ -177,6 +178,6 @@
         "role": "Associate Professor",
         "image": "./images/people/elena.jpg",
         "url": "https://rubrica.unige.it/personale/UEBEWlw=",
-        "bib": "https://dblp.org/pid/35/5174.bib"
+        "bib": "https://dblp.org/pid/z/EZucca.bib"
     }
-]
+]);

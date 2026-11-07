@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <rect width="900" height="400" fill="#000000"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#ffffff" stroke-width="2" opacity=".35"/>
+  <g fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif">
+<path d="M151 258v-82h80m518 82v-82h-80" stroke="#0d6efd" fill="none" stroke-width="5"/>
+<path d="M310 151v47m280-47v47" stroke="#fec207" stroke-width="4"/>
+<path d="M226 201h448" stroke="#fec207" stroke-width="6"/>
+<rect x="228" y="82" width="164" height="68" fill="#fec207"/>
+<rect x="508" y="82" width="164" height="68" fill="#fec207"/>
+<rect x="287" y="235" width="326" height="83" fill="#0d6efd"/>
+<path d="M450 204v31" stroke="#fec207" stroke-width="4"/>
+<g fill="#000000" font-size="36" font-weight="700" text-anchor="middle">
+  <text x="310" y="129">Γ ⊢ A</text>
+  <text x="590" y="129">Γ ⊢ B</text>
+  <text x="450" y="289">Γ ⊢ A ∧ B</text>
+</g>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title">
+  <title id="title">Cardinal addition as the size of a disjoint union</title>
+  <rect width="900" height="400" fill="#f4f2ec"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#000000" stroke-width="2" opacity=".35"/>
+  <rect x="112" y="82" width="268" height="145" rx="17" fill="#fec207" stroke="#000000" stroke-width="4"/>
+  <rect x="520" y="82" width="268" height="145" rx="17" fill="#0d6efd" stroke="#000000" stroke-width="4"/>
+  <g font-family="DejaVu Sans, sans-serif" font-size="28" font-weight="700" text-anchor="middle">
+    <text x="246" y="126">A</text>
+    <text x="654" y="126">B</text>
+    <text x="450" y="171" font-size="48">+</text>
+  </g>
+  <g fill="#000000">
+    <rect x="191" y="151" width="46" height="46" rx="8"/>
+    <rect x="255" y="151" width="46" height="46" rx="8"/>
+  </g>
+  <g fill="#ffffff">
+    <circle cx="590" cy="174" r="22"/>
+    <circle cx="654" cy="174" r="22"/>
+    <circle cx="718" cy="174" r="22"/>
+  </g>
+  <rect x="205" y="269" width="490" height="62" rx="12" fill="#000000"/>
+  <text x="450" y="310" fill="#ffffff" font-family="DejaVu Sans, sans-serif" font-size="33" font-weight="700" text-anchor="middle">|A ⊔ B| = 2 + 3 = 5</text>
+</svg>

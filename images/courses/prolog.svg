@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <rect width="900" height="400" fill="#000000"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#ffffff" stroke-width="2" opacity=".35"/>
+  <g fill="#ffffff" font-family="DejaVu Sans, Arial, sans-serif">
+<rect x="87" y="80" width="406" height="244" fill="#0d6efd"/>
+<rect x="76" y="69" width="406" height="244" fill="#f4f2ec"/>
+<rect x="76" y="69" width="406" height="41" fill="#fec207"/>
+<path d="M94 89h12m9 0h12m9 0h12" stroke="#000000" stroke-width="4"/>
+<g fill="#000000" font-family="DejaVu Sans Mono, monospace" font-size="27" font-weight="700">
+  <text x="99" y="158">edge(a, b).</text>
+  <text x="99" y="204">?- edge(a, B).</text>
+  <text x="99" y="254" fill="#004bb5">B = b.</text>
+</g>
+<path d="M628 200h94m-16-14 16 14-16 14" fill="none" stroke="#ffffff" stroke-width="4"/>
+<rect x="551" y="161" width="76" height="78" fill="#fec207"/>
+<rect x="731" y="161" width="76" height="78" fill="#0d6efd"/>
+<g fill="#000000" font-size="46" font-weight="700" text-anchor="middle">
+  <text x="589" y="216">a</text><text x="769" y="216">b</text>
+</g>
+  </g>
+</svg>

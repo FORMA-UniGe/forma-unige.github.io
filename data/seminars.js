@@ -1,4 +1,5 @@
-[
+// Edit this list directly. See the README for a complete example.
+FormaData.register("seminars", [
     {
         "title": "Modeling and Verification for Robotics: the aftermath of the CONVINCE project",
         "speaker": "Enrico Ghiorzi, Karim Pedemonte, Armando Tacchella",
@@ -6,7 +7,8 @@
         "abstract": "The CONVINCE EU project spanned 40 months of activity ending in April 2026 and involving UniGe together with IIT (coordinator), Bosch research, CEA, and University of Birmingham among others. The overarching goal of the project was to reach context aware verifiable and adaptive dynamic deliberation focusing on three pillars: situation understanding, planning and formal verification (both offline and at runtime). The UniGe unit focused on the last pillar and developed two key elements. The first contribution is SCAN, a new statistical model checker which can compete with similar state-of-the-art tools and deals with models of control architectures that include discrete, timed and probabilistic transitions among the states of a single component as well as asynchronous communication among the components. SCAN can check properties expressed in past metric temporal logic which enables handling of real-time requirements. The second contribution is the monitoring infrastructure MOON, which extends the ROS Monitoring system to consider a larger class of ROS 2 protocols and enables monitoring of properties and models during simulation or actual robot execution. In the talk, we will overview the contributions achieved so far in the context of CONVINCE as well as the expected developments of the MoVeRo initiative, a follow up meant to achieve full model-based capability for the development of control architectures in robotics, including verification, code generation and monitoring.",
         "bio": "Enrico is a post-doctoral research fellow at the University of Genoa. He got his PhD from the University of Cambridge and joined UniGe in 2023 shortly after the beginning of CONVINCE. His research focuses on statistical model checking for channel systems with properties expressed in temporal logic. Karim is a research fellow at the University of Genoa and a PhD candidate for the 42nd cycle in the program \"Cybersecurity and Reliable Artificial Intelligence\". He got his master degree jointly from UniGe and UTC with a thesis on the verification of neural networks and contributed to CONVINCE by extending and improving ROS Monitoring. Armando is a full professor at the University of Genoa. He was the principal investigator in the CONVINCE project for UniGe and his research interests are in the field of formal methods applied to intelligent and cyberphysical systems including autonomous robots.",
         "image": "./images/seminars/convince.jpg",
-        "when": "13th of July (14:00), 2026",
+        "date": "2026-07-13",
+        "time": "14:00",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -16,7 +18,8 @@
         "abstract": "Behavior Trees are a graphical model used to specify a discrete decision-making or task selection process as an ordered rooted tree. They are widely used in the robotic and com[...]",
         "bio": "Alberto is a research fellow at the Department of Information Engineering and Computer Science of the University of Trento. He received his PhD in Mathematics from the University of[...]",
         "image": "./images/seminars/tacchella.jpg",
-        "when": "8th of April (11:00), 2026",
+        "date": "2026-04-08",
+        "time": "11:00",
         "where": "Valletta Puggia, Room 216"
     },
     {
@@ -25,8 +28,9 @@
         "affiliation": "Universitat Politècnica de València",
         "abstract": "Harmful information in social media, both disinformation and hate speech, is pervasive. Emotional content can be exploited by malicious agents to provoke inflammatory response[...]",
         "bio": "Paolo Rosso is Full Professor at the Universitat Politècnica de València, where he is also a member of the Pattern Recognition and Human Language Technology (PRHLT) research cent[...]",
-        "image": "./images/seminars/PaoloRosso.jpg",
-        "when": "26th of January (12:00), 2026",
+        "image": "./images/seminars/paolo-rosso.png",
+        "date": "2026-01-26",
+        "time": "12:00",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -36,7 +40,8 @@
         "abstract": "The ability of autonomous systems to provide explanations is important for supporting transparency and aiding the development of (appropriate) trust. Prior work in empirical p[...]",
         "bio": "Michael Winikoff is a Professor (and former Head of School) in the School of Information Management at Victoria University of Wellington, Aotearoa / New Zealand. Previously, Michae[...]",
         "image": "./images/seminars/MichaelWinikoff.jpeg",
-        "when": "20th of October (14:00), 2025",
+        "date": "2025-10-20",
+        "time": "14:00",
         "where": "Valletta Puggia, Room 711"
     },
     {
@@ -46,7 +51,8 @@
         "abstract": "We discuss the importance of taking into account holistic historical and socio-linguistic perspectives to inspire us in re-directing those  AI  efforts that stress imitative o[...]",
         "bio": "Verónica Dahl is an Argentine/Canadian mother, computer scientist, musician and writer, recognised by ALP as co-founder of the Logic Programming field. Her work in cognitive scien[...]",
         "image": "./images/seminars/VeronicaDahl.png",
-        "when": "22nd of September (15:00), 2025",
+        "date": "2025-09-22",
+        "time": "15:00",
         "where": "Valletta Puggia, Room 711"
     },
     {
@@ -56,7 +62,8 @@
         "abstract": "While the use of memory-safe programming languages is growing, many software applications, especially for low-end devices, are still written in C or C++ and are thus prone to [...]",
         "bio": "Alberto is a research fellow at the Department of Information Engineering and Computer Science of the University of Trento. He received his PhD in Mathematics from the University o[...]",
         "image": "./images/seminars/tacchella.jpg",
-        "when": "14th of March (11:30), 2025",
+        "date": "2025-03-14",
+        "time": "11:30",
         "where": "Viale Causa 13, Aula Tagliasco"
     },
     {
@@ -66,7 +73,8 @@
         "abstract": "Formal, mathematically rigorous programming language semantics are the essential prerequisite for the design of logics and calculi that permit automated reasoning about concur[...]",
         "bio": "Violet Ka I Pun is currently associate professor in Software Engineering research group, at Western Norway University of Applied Sciences. Before that, she was a postdoctoral resea[...]",
         "image": "./images/seminars/pun.jpg",
-        "when": "20th of February (11:00), 2025",
+        "date": "2025-02-20",
+        "time": "11:00",
         "where": "Valletta Puggia, Room 215"
     },
     {
@@ -76,7 +84,8 @@
         "abstract": "Planning involves finding a sequence of actions to reach a goal from an initial state, with variations depending on the representation of the environment: classical (propositi[...]",
         "bio": "Matteo is a research fellow at University of Genoa. He recently got his PhD from the University of Turin in the context of the \"National PhD in AI programme\". His research focu[...]",
         "image": "./images/seminars/cardellini.jpg",
-        "when": "27th of January (11:30), 2025",
+        "date": "2025-01-27",
+        "time": "11:30",
         "where": "Valletta Puggia, Room 711"
     },
     {
@@ -86,7 +95,8 @@
         "abstract": "I will report work-in-progress on the development of QPL, a predicate logic extending Bacci-Mardare-Panangaden-Plotkin's 'Polynomial Lawvere Logic', which is itself an extensi[...]",
         "bio": "I'm an independent researcher, currently funded by ARIA under the 'Safeguarded AI' programme, phase TA1.1. I'm also in the process of finish my PhD at the University of Strathclyde[...]",
         "image": "./images/seminars/capucci.jpg",
-        "when": "21st of January (11:30), 2025",
+        "date": "2025-01-21",
+        "time": "11:30",
         "where": "Valletta Puggia, Room 711"
     },
     {
@@ -96,7 +106,8 @@
         "abstract": "Counterfactual explanations (CEs) are advocated as being ideally suited to providing algorithmic recourse for subjects affected by the predictions of machine learning models. [...]",
         "bio": "Francesco is an Imperial College Research Fellow affiliated with the Centre for Explainable Artificial Intelligence at Imperial College London. His research focuses on safe and exp[...]",
         "image": "./images/seminars/leofante.jpg",
-        "when": "11th of December (12:30), 2024",
+        "date": "2024-12-11",
+        "time": "12:30",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -106,7 +117,8 @@
         "abstract": "The idea of participatory budgeting is that a city allows its inhabitants to choose how some amount of budget is spent. Typically, the most active citizens first propose possi[...]",
         "bio": "Piotr Faliszewski is a Full Professor of Computer Science at AGH University of Science and Technology in Kraków, Poland. His research interests include computational social choice[...]",
         "image": "./images/seminars/piotr.jpeg",
-        "when": "11th of September (11:00), 2024",
+        "date": "2024-09-11",
+        "time": "11:00",
         "where": "Valletta Puggia, Room 217"
     },
     {
@@ -116,7 +128,8 @@
         "abstract": "ChatGPT and other LLMs are the most recent major outcome of the ongoing Ai revolution. The talk begins with a brief discussion of such (text-based) generative AI tools and sh[...]",
         "bio": "Georg Gottlob is a Professor Georg Gottlob is a Professor of Computer Science at the University of Calabria. Until recently, he was a Royal Society Research Professor at the Compu[...]",
         "image": "./images/seminars/georggottlob.jpeg",
-        "when": "20th of May (14:00), 2024",
+        "date": "2024-05-20",
+        "time": "14:00",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -126,7 +139,8 @@
         "abstract": "Proof theory offers various approaches to modal logic, each incorporating varying levels of additional technology into the fundamental formats, such as deduction, sequent cal[...]",
         "bio": "Dr. Margherita Zorzi, Ph.D, is an Assistant Professor at the Department of Computer Science, Università degli Studi di Verona, specializing in Mathematical Logic, Logical Methods[...]",
         "image": "./images/seminars/margheritazorzi.jpeg",
-        "when": "9th of May (16:00), 2024",
+        "date": "2024-05-09",
+        "time": "16:00",
         "where": "Valletta Puggia, Room 704"
     },
     {
@@ -136,7 +150,8 @@
         "abstract": "Model-checking is one of the most powerful techniques for verifying systems and programs, which since the pioneering results by Knapik et al., Ong, and Kobayashi, is known to[...]",
         "bio": "Ugo Dal Lago is full professor of Computer Science since 2019 and a faculty member of the Computer Science Lab since 2006. Before that, he has been a postdoc in Verona and Paris. [...]",
         "image": "./images/seminars/ugodallago.jpeg",
-        "when": "24th of April (11:15), 2024",
+        "date": "2024-04-24",
+        "time": "11:15",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -146,7 +161,8 @@
         "abstract": "We are witnessing an inter-disciplinary convergence between scientific areas underpinned by model-based reasoning and by data-driven learning. Access to information-rich data[...]",
         "bio": "Alessandro Abate is Professor of Verification and Control in the Department of Computer Science at the University of Oxford, where he also served as Deputy Head. Earlier, he did r[...]",
         "image": "./images/seminars/alessandroabate.jpeg",
-        "when": "19th of April (14:00), 2024",
+        "date": "2024-04-19",
+        "time": "14:00",
         "where": "Viale Causa 13, Aula Tagliasco",
         "slides": "./data/slides/Abate19042024.pdf"
     },
@@ -157,7 +173,8 @@
         "abstract": "In a 1973 paper Lawvere proposes to view metric spaces as R-enriched categories.  We recall the definitions (metric space X, category C, monoidal category V, V-enriched categ[...]",
         "bio": "Professor Eugenio Moggi, MSc from Pisa (1983) and PhD from Edinburgh (1988), has worked at the Univ. of Cambridge, Edinburgh and Pisa, before moving to Genova in 1990.",
         "image": "./images/seminars/eugeniomoggi.jpeg",
-        "when": "25th of March (15:00), 2024",
+        "date": "2024-03-25",
+        "time": "15:00",
         "where": "Valletta Puggia, Room 218",
         "slides": "./data/slides/Moggi25032024.pdf"
     },
@@ -168,7 +185,8 @@
         "abstract": "In this talk I will present a formalisation of closed loop systems comprising neural-symbolic agents and an approach to verify those using fragments of temporal logics. Here [...]",
         "bio": "Prior to joining Kent Elena was a Research Associate in the Verification of Autonomous Systems Group at Imperial College London and a Researcher in the KRDB Research Centre for Kn[...]",
         "image": "./images/seminars/elenabotoeva.jpeg",
-        "when": "14th of February (14:00), 2024",
+        "date": "2024-02-14",
+        "time": "14:00",
         "where": "Viale Causa 15, Aula Tagliasco"
     },
     {
@@ -178,7 +196,7 @@
         "abstract": "In the multi-agent setting, it is relevant to model group dynamics of agents, and epistemic logic has proved a good tool. We illustrate an epistemic logic that allows one to [...]",
         "bio": "Stefania Costantini, a Full Professor at the University of L'Aquila since 2005, is a leading expert in Artificial Intelligence (AI). As head of the AAAI@AQ Research Group, she foc[...]",
         "image": "./images/seminars/stefaniacostantini.jpeg",
-        "when": "15th of January, 2024",
+        "date": "2024-01-15",
         "where": "Valletta Puggia, Room 711"
     },
     {
@@ -188,7 +206,7 @@
         "abstract": "We investigate networks of processes using a finite-state protocol and rendezvous communication. Our focus is on verifying properties within this model. We revisit establishe[...]",
         "bio": "Arnaud Sangnier obtained his PhD at the Laboratoire Spécification et Vérification of ENS Cachan (France) in 2008. His doctoral thesis was on the automatic verification of progra[...]",
         "image": "./images/seminars/arnaudsangnier.jpeg",
-        "when": "21st of December, 2023",
+        "date": "2023-12-21",
         "where": "Valletta Puggia, Room 218"
     },
     {
@@ -198,7 +216,7 @@
         "abstract": "Anomaly Detection is a field of data mining that deals with identifying data anomalies in a dataset. Anomalies can be due to measurement errors, unexpected events or maliciou[...]",
         "bio": "Claudia Cavallaro is a Researcher in Computer Science at the University of Catania, works on Big Data, Optimization and Metaheuristics. She is a member of Complex Intelligent Syst[...]",
         "image": "./images/seminars/claudiacavallaro.jpeg",
-        "when": "22nd of November, 2023",
+        "date": "2023-11-22",
         "where": "Valletta Puggia, Room 218"
     },
     {
@@ -208,7 +226,7 @@
         "abstract": "We present an approach to language design aimed at enforcing modular security, where a security architect can define specific object capabilities that enforce custom security[...]",
         "bio": "Marco Servetto is a researcher in Programming languages, type and theory. He is interested in the formal modelling of the semantic of programming languages, with a focus on the in[...]",
         "image": "./images/seminars/marcoservetto.jpeg",
-        "when": "31th of October, 2023",
+        "date": "2023-10-31",
         "where": "Valletta Puggia, Room 322"
     },
     {
@@ -218,7 +236,7 @@
         "abstract": "One of the great achievements in the mathematical work of F.W. Lawvere has been that of redesigning the algebraic perspective on logic by means of categories. In a series of [...]",
         "bio": "Professor of Mathematical Logic, Giuseppe Rosolini teaches at the Department of Mathematics at the University of Genoa. He earned his Ph.D. in Mathematics at the University of Oxf[...]",
         "image": "./images/seminars/giusepperosolini.jpeg",
-        "when": "19th of October, 2023",
+        "date": "2023-10-19",
         "where": "Valletta Puggia, Room 217"
     },
     {
@@ -228,7 +246,7 @@
         "abstract": "Runtime verification now has two decades of experience in developing a toolkit of techniques aimed at facilitating monitoring through wide-ranging contributions: from domain-[...]",
         "bio": "Christian Colombo obtained his PhD in Computer Science from the University of  Malta in 2013 and currently holds the position of Senior Lecturer within the Department of Computer [...]",
         "image": "./images/seminars/christiancolombo.jpeg",
-        "when": "21st of April, 2023",
+        "date": "2023-04-21",
         "where": "Valletta Puggia, Room 322"
     }
-]
+]);

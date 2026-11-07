@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400">
+  <rect width="900" height="400" fill="#fec207"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#000000" stroke-width="2" opacity=".35"/>
+  <g fill="#000000" font-family="DejaVu Sans, Arial, sans-serif">
+<path d="M108 279h684M108 117h684" stroke="#000000" stroke-width="2" opacity=".32"/>
+<rect x="110" y="154" width="178" height="88" fill="#f4f2ec" stroke="#000000" stroke-width="4"/>
+<rect x="362" y="154" width="178" height="88" fill="#000000" stroke="#000000" stroke-width="4"/>
+<rect x="614" y="154" width="178" height="88" fill="#0d6efd" stroke="#000000" stroke-width="4"/>
+<path d="M302 198h43m-12-11 12 11-12 11m222-11h43m-12-11 12 11-12 11" fill="none" stroke="#000000" stroke-width="4"/>
+<g font-size="24" font-weight="700" text-anchor="middle">
+  <text x="199" y="207">Evidence</text>
+  <text x="451" y="207" fill="#ffffff">Inference</text>
+  <text x="703" y="207">Belief</text>
+</g>
+<path d="M451 108v46m0 88v46" stroke="#000000" stroke-width="4"/>
+<circle cx="451" cy="100" r="8" fill="#000000"/>
+<circle cx="451" cy="296" r="8" fill="#000000"/>
+  </g>
+</svg>

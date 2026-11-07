@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title">
+  <title id="title">The polymorphic identity function written in Agda</title>
+  <rect width="900" height="400" fill="#fec207"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#000000" stroke-width="2" opacity=".35"/>
+  <rect x="156" y="109" width="610" height="210" rx="18" fill="#0d6efd"/>
+  <rect x="141" y="94" width="610" height="210" rx="18" fill="#f4f2ec" stroke="#000000" stroke-width="4"/>
+  <rect x="166" y="113" width="78" height="34" rx="8" fill="#000000"/>
+  <text x="205" y="136" fill="#fec207" font-family="DejaVu Sans Mono, monospace" font-size="18" font-weight="700" text-anchor="middle">AGDA</text>
+  <g fill="#000000" font-family="DejaVu Sans Mono, monospace" font-size="32" font-weight="700">
+    <text x="166" y="205">id : (A : Set) → A → A</text>
+    <text x="166" y="257">id A x = x</text>
+  </g>
+</svg>

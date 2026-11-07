@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="400" viewBox="0 0 900 400" role="img" aria-labelledby="title">
+  <title id="title">At world w0, P is possible but not necessary because the accessible worlds disagree on P</title>
+  <rect width="900" height="400" fill="#0d6efd"/>
+  <path d="M40 76V40h36M824 40h36v36M860 324v36h-36M76 360H40v-36" fill="none" stroke="#000000" stroke-width="2" opacity=".35"/>
+  <rect x="81" y="108" width="277" height="184" rx="17" fill="#fec207" stroke="#000000" stroke-width="4"/>
+  <path d="M106 199h227" stroke="#000000" stroke-width="2" opacity=".4"/>
+  <path d="M534 180l150-68m-21-7 21 7-8 20m-142 88 150 68m-8-20 8 20-21 7" fill="none" stroke="#000000" stroke-width="5"/>
+  <circle cx="496" cy="200" r="43" fill="#fec207" stroke="#000000" stroke-width="4"/>
+  <circle cx="733" cy="93" r="42" fill="#f4f2ec" stroke="#000000" stroke-width="4"/>
+  <circle cx="733" cy="307" r="42" fill="#f4f2ec" stroke="#000000" stroke-width="4"/>
+  <g font-family="DejaVu Sans, sans-serif" font-weight="700" text-anchor="middle">
+    <g font-size="35">
+      <text x="219" y="172">w₀ ⊨ ◇P</text>
+      <text x="219" y="247">w₀ ⊭ □P</text>
+    </g>
+    <g font-size="28">
+      <text x="496" y="210">w₀</text>
+      <text x="733" y="89">w₁</text>
+      <text x="733" y="303">w₂</text>
+    </g>
+    <g font-size="19">
+      <text x="733" y="114">P</text>
+      <text x="733" y="328">¬P</text>
+    </g>
+  </g>
+</svg>
